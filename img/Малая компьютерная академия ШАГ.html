@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)http://localhost:3000/# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+</style><style>.gm-control-active>img{box-sizing:content-box;display:none;left:50%;pointer-events:none;position:absolute;top:50%;transform:translate(-50%,-50%)}.gm-control-active>img:nth-child(1){display:block}.gm-control-active:hover>img:nth-child(1),.gm-control-active:active>img:nth-child(1){display:none}.gm-control-active:hover>img:nth-child(2),.gm-control-active:active>img:nth-child(3){display:block}
+</style><link type="text/css" rel="stylesheet" href="./Малая компьютерная академия ШАГ_files/css"><style>.gm-ui-hover-effect{opacity:.6}.gm-ui-hover-effect:hover{opacity:1}
+</style><style>.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px;box-sizing:border-box}
+</style><style>@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style>.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+</style><style>.gm-style img{max-width: none;}.gm-style {font: 400 11px Roboto, Arial, sans-serif; text-decoration: none;}</style>
+	
+	<title>Малая компьютерная академия ШАГ</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link rel="icon" href="http://localhost:3000/img/favicon(WebFlat).ico">
+	<link rel="stylesheet" href="./Малая компьютерная академия ШАГ_files/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="./Малая компьютерная академия ШАГ_files/stylesheet.css">
+	<link rel="stylesheet" href="./Малая компьютерная академия ШАГ_files/style.css">
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+<script type="text/javascript" charset="UTF-8" src="./Малая компьютерная академия ШАГ_files/common.js.Без названия"></script><script type="text/javascript" charset="UTF-8" src="./Малая компьютерная академия ШАГ_files/util.js.Без названия"></script><script type="text/javascript" charset="UTF-8" src="./Малая компьютерная академия ШАГ_files/map.js.Без названия"></script><script type="text/javascript" charset="UTF-8" src="./Малая компьютерная академия ШАГ_files/marker.js.Без названия"></script><script type="text/javascript" charset="UTF-8" src="./Малая компьютерная академия ШАГ_files/onion.js.Без названия"></script><script type="text/javascript" charset="UTF-8" src="./Малая компьютерная академия ШАГ_files/controls.js.Без названия"></script></head>
+<body><script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='/browser-sync/browser-sync-client.js?v=2.26.5'><\/script>".replace("HOST", location.hostname));
+//]]></script><script async="" src="./Малая компьютерная академия ШАГ_files/browser-sync-client.js.Без названия"></script>
+
+	<header id="header" class="header">
+		<div class="container">
+				<div class="menu">
+					<a href="http://localhost:3000/#" class="menu__logo-link">
+						<img src="./Малая компьютерная академия ШАГ_files/logo.png" class="menu__logo" alt="logo">
+					</a>
+					<nav class="menu__nav menu__nav--center">
+						<a href="http://localhost:3000/#" class="menu__link">О нас</a>
+						<a href="http://localhost:3000/#" class="menu__link">Почему ты</a>
+						<a href="http://localhost:3000/#" class="menu__link">Отзывы</a>
+						<a href="http://localhost:3000/#" class="menu__link">Контакты</a>
+					</nav>
+					<div class="menu__nav menu__nav--burger" title="menu">
+						<div class="menu__burger">
+							<svg class="menu__burger-img" height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"></path></svg>
+						</div>
+						<nav class="menu__hide">
+							<a href="http://localhost:3000/#" class="menu__link-brg">О нас</a>
+							<a href="http://localhost:3000/#" class="menu__link-brg">Почему ты</a>
+							<a href="http://localhost:3000/#" class="menu__link-brg">Отзывы</a>
+							<a href="http://localhost:3000/#" class="menu__link-brg">Контакты</a>
+						</nav>
+					</div> 
+					<nav class="menu__nav menu__nav--right">
+						<a href="http://localhost:3000/#" class="menu__link-right">CZ</a>
+						<a href="http://localhost:3000/#" class="menu__link-right">
+							<i class="fas fa-search"></i>
+						</a>
+					</nav>
+				</div>
+				<div class="header__main">
+					<div class="header__scroll">
+						<a href="http://localhost:3000/#about" class="header__scroll-link">
+							<img src="./Малая компьютерная академия ШАГ_files/scroll.png" class="header__scroll-img" alt="scroll">
+						</a>
+						<p class="header__scroll-text">Вниз</p>
+					</div>
+					<div class="header__lines"></div>
+					<div class="header__body">
+						<h1 class="header__title">Здесь вас ждут приключения!</h1>
+						<p class="header__text">Лучший образовательный <span style="text-transform: uppercase">ТОП</span> проект ООН и Юнеско</p>
+						<a href="http://localhost:3000/#" class="header__btn btn">Узнать подробнее</a>
+						<div class="header__img-wrap">
+							<img src="./Малая компьютерная академия ШАГ_files/boy.png" class="header__img" alt="boy and robot">
+						</div>
+						<div class="header__img-hell">
+							<img src="./Малая компьютерная академия ШАГ_files/hell.png" alt="hellicopter">
+						</div>
+						<div class="header__row">
+							<p class="header__row-text">Следите за нами</p>
+						</div>
+						<div class="header__social-wrap">
+							<a href="http://localhost:3000/#" class="header__soc-icon"><i class="fab fa-facebook-square"></i></a>
+							<a href="http://localhost:3000/#" class="header__soc-icon"><i class="fab fa-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+		</div>
+	</header>
+	<main>
+		<section class="about" id="about">
+			<div class="container">
+				<div class="head">
+					<div class="head__lines">
+						<div class="head__first-line"></div>
+						<div class="head__second-line"></div>
+					</div>
+					<h2 class="head__title">О нас</h2>
+					<p class="head__text">Малая компьютерная академия - это место, где студенты осваивают технологии,
+						которыми весь мир будет пользоваться в будущем.</p>
+				</div>
+				<div class="about__wrap">
+					<div class="about__item">
+						<div class="about__img-wrap">
+						<img src="./Малая компьютерная академия ШАГ_files/smart4.png" alt="">
+						</div>
+						<p class="about__number">18</p>
+						<p class="about__trans">Countries</p>
+						</div>
+					<div class="about__item">
+						<div class="about__img-wrap">
+							<img src="./Малая компьютерная академия ШАГ_files/smart3.png" alt="">
+						</div>
+						<p class="about__number">1400</p>
+						<p class="about__trans">Trainers</p>
+					</div>
+					<div class="about__item">
+						<div class="about__img-wrap">
+							<img src="./Малая компьютерная академия ШАГ_files/smart2.png" alt="">
+						</div>
+						<p class="about__number">45000</p>
+						<p class="about__trans">Students</p>
+					</div>
+					<div class="about__item">
+						<div class="about__img-wrap">
+							<img src="./Малая компьютерная академия ШАГ_files/smart1.png" alt="">
+						</div>
+						<p class="about__number">1200</p>
+						<p class="about__trans">Graduates</p>
+					</div>
+				</div>
+				<p class="about__text">Программа развивает универсальные навыки, полезные для каждого</p>
+				<div class="about__skills-wrap">
+					<div class="about__skills">
+						<div class="about__skill">
+							<img src="./Малая компьютерная академия ШАГ_files/heart.png" alt="" class="about__img">
+							<p>Развитие эмоций и чувств</p>
+						</div>
+						<div class="about__skill">
+							<img src="./Малая компьютерная академия ШАГ_files/brain.png" alt="" class="about__img">
+							<p>Развитие интеллекта</p>
+						</div>
+						<div class="about__skill">
+							<img src="./Малая компьютерная академия ШАГ_files/arm.png" alt="" class="about__img">
+							<p>Исследовательское поведение</p>
+						</div>
+					</div>
+					<div class="about__foto-wrap">
+						<img class="about__foto" src="./Малая компьютерная академия ШАГ_files/girls.jpg" alt="girls">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="why">
+			<div class="container">
+				<div class="head">
+					<div class="head__lines">
+						<div class="head__first-line"></div>
+						<div class="head__second-line head__second-line--white"></div>
+					</div>
+					<h2 class="head__title head__title--white">Почему мы?</h2>
+				</div>
+				<div class="why__content">
+					<div class="why__items">
+						<a href="http://localhost:3000/#" class="item">
+							<div class="item__head">
+								<p class="item__title">Актуальная программа</p>
+								<img src="./Малая компьютерная академия ШАГ_files/blocknote.png" alt="" class="item__img">
+							</div>
+							<p class="item__text">Ваш ребенок приобретает необходимые актуальные знания и умения, которыми в будущем сделают
+								его чемпионом.</p>
+						</a>
+						<a href="http://localhost:3000/#" class="item">
+							<div class="item__head">
+								<p class="item__title">Команда профессионалов</p>
+								<img src="./Малая компьютерная академия ШАГ_files/human.png" alt="" class="item__img">
+							</div>
+							<p class="item__text">Наши специалисты вдохновят, привьют интерес к учебе, к созданию собственных проектов,
+								научат работать самостоятельно и в команде.</p>
+						</a>
+						<img class="item__robot" src="./Малая компьютерная академия ШАГ_files/robot.png" alt="">
+						<a href="http://localhost:3000/#" class="item">
+							<div class="item__head">
+								<p class="item__title">Дружеская атмосфера</p>
+								<img src="./Малая компьютерная академия ШАГ_files/heart-small.png" alt="" class="item__img">
+							</div>
+							<p class="item__text">Мы считаем, что современное образование – это тандем преподавателя и студента. Все
+								участники процесса работают на равных, в комфортных лабораториях с передовым оборудованием.</p>
+						</a>
+					</div>
+					<div class="why__card-wrap">
+						<div class="why__img-wrap">
+							<img src="./Малая компьютерная академия ШАГ_files/small-boy.png" alt=""> 	
+						</div>
+						<div class="why__card-info">
+							<p class="why__text">В варшаве учится:</p>
+							<p class="why__number-human">865</p>
+							<p class="why__text">человек</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section>
+		<section class="call">
+			<div class="container">
+			<p class="call__title">ЗАПИСАТЬСЯ на пробный урок можно бесплатно!</p>
+			<a href="http://localhost:3000/#" class="btn btn__call">Записаться</a>
+			<img class="call__img" src="./Малая компьютерная академия ШАГ_files/roket.png" alt="">
+			</div>
+		</section>
+		<section class="lean">
+			<div class="container">
+				<div class="head">
+					<div class="head__lines">
+						<div class="head__first-line"></div>
+						<div class="head__second-line"></div>
+					</div>
+					<h2 class="head__title">Что учат наши дети?</h2>
+				</div>
+				<div class="top-block">
+					<a href="http://localhost:3000/#" class="top-block__item top-block__item--long">
+						<div class="top-block__wrap-img">
+							<img src="./Малая компьютерная академия ШАГ_files/sheme.png" alt="" class="top-block__img">
+						</div>
+						<h3 class="top-block__title">Роботы</h3>
+						<p class="top-block__text">Хочешь, чтобы робот сделал за тебя домашнее задание - запрограммируй его сами Роботы андроиды, роботы технологии, дроны, роботы уборщики и многое другое!</p>
+						<div class="top-block__wrap-logo">
+							<img class="top-block__logo" src="./Малая компьютерная академия ШАГ_files/minecraft.png" alt="">
+							<img class="top-block__logo" src="./Малая компьютерная академия ШАГ_files/roblox.png" alt="">
+						</div>
+						<div class="top-block__wrap-logo">
+							<img src="./Малая компьютерная академия ШАГ_files/java.png" alt="">
+							<img src="./Малая компьютерная академия ШАГ_files/python.png" alt="">
+						</div>
+						<div class="top-block__wrap-logo">
+							<h3 class="top-block__subtitle">Создание сайтов</h3>
+							<span class="top-block__text-logo">HTML</span>
+							<span class="top-block__text-logo">CSS</span>
+						</div>
+					</a>	
+					<a href="http://localhost:3000/#" class="top-block__item top-block__item--second">
+						<div class="top-block__wrap-img">
+							<img src="./Малая компьютерная академия ШАГ_files/monitor.png" alt="" class="top-block__img">
+						</div>
+						<h3 class="top-block__title">Крутой дизайн</h3>
+						<p class="top-block__text">В этом блоке мы научим рисовать, делать фотомонтажи, сайты, создадим логотипы ваших каналов и сделаем рекламу с
+							использованием графичекого планшета</p>
+						<div class="top-block__wrap-logo">
+							<img src="./Малая компьютерная академия ШАГ_files/kodu.png" alt="">
+							<img src="./Малая компьютерная академия ШАГ_files/construct.png" alt="">
+						</div>
+						<div class="top-block__wrap-logo">
+							<h3 class="top-block__subtitle">3Д графика и печать</h3>
+							<img src="./Малая компьютерная академия ШАГ_files/may3d.png" alt="">
+							<img src="./Малая компьютерная академия ШАГ_files/max3d.png" alt="">
+						</div>
+						<div class="top-block__wrap-logo">
+							<h3 class="top-block__subtitle">Создание мультфильмов</h3>
+							<span class="top-block__text-logo top-block__text-logo--lite">Анимейт муви студио</span>
+						</div>
+					</a>
+					<a href="http://localhost:3000/#" class="top-block__item">
+						<div class="top-block__wrap-img">
+							<img src="./Малая компьютерная академия ШАГ_files/view.png" alt="" class="top-block__img">
+						</div>
+						<h3 class="top-block__title">YouTube</h3>
+						<p class="top-block__text">Ваш ребенок научится создавать, офорлять и моделировать свой youtube-канал, формировать концепцию блога, свободно держаться перед камерой</p>
+						<div class="top-block__wrap-logo">
+							<img src="./Малая компьютерная академия ШАГ_files/unity.png" alt="">
+							<img src="./Малая компьютерная академия ШАГ_files/unreal.png" alt="">
+						</div>
+						<div class="top-block__wrap-logo">
+							<h3 class="top-block__subtitle">Фото видео школа</h3>
+						</div>
+						<div class="top-block__wrap-logo">
+							<h3 class="top-block__subtitle">ЗВУК и DJ</h3>
+						</div>
+					</a>
+				</div>
+				<div class="bottom-block">
+					<div class="bottom-block__left">
+						<div class="top-block__wrap-img">
+							<img src="./Малая компьютерная академия ШАГ_files/family.png" alt="" class="top-block__img">
+						</div>
+						<h3 class="bottom-block__title">Родители спокойны!</h3>
+						<div class="bottom-block__trans">Полный контроль для родителей</div>
+						<div class="bottom-block__wrap-logo">
+							<h4 class="bottom-block__subtitle">Электронный дневник + мобильная версия</h4>
+							<img src="./Малая компьютерная академия ШАГ_files/elearning.png" alt="">
+							<img src="./Малая компьютерная академия ШАГ_files/smartphone.png" alt="">
+						</div>
+						<div class="bottom-block__wrap-logo">
+							<h4 class="bottom-block__subtitle">Дети за хорошие оценки могут покупать себе подарки:</h4>
+							<span class="bottom-block__text-logo">наушники, мышки, клавиатуры, флешки, спиннеры, селфи-палки, футболки и другие
+								полезные вещи</span>
+							<div class="bottom-block__wrap-img">
+								<img src="./Малая компьютерная академия ШАГ_files/giftbox.png" alt="">
+								<img src="./Малая компьютерная академия ШАГ_files/giftbox-mid.png" alt="">
+								<img src="./Малая компьютерная академия ШАГ_files/giftbox-xs.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="bottom-block__right">
+						<img src="./Малая компьютерная академия ШАГ_files/fly-robot.png" alt="robot">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="about-learn">
+			<div class="container">
+				<div class="head">
+					<div class="head__lines">
+						<div class="head__first-line"></div>
+						<div class="head__second-line head__second-line--white"></div>
+					</div>
+					<h2 class="head__title head__title--white">Как проходит обучение</h2>
+				</div>
+				<div class="slider slick-initialized slick-slider" id="slider"><div class="slick-list draggable" style="padding: 0px 60px;"><div class="slick-track" style="opacity: 1; width: 3388px; transform: translate3d(-726px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-4" aria-hidden="true" tabindex="-1" style="width: 242px;"><div><img src="./Малая компьютерная академия ШАГ_files/slide-learn.png" alt="" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" tabindex="-1" style="width: 242px;"><div><img src="./Малая компьютерная академия ШАГ_files/slide-learn.png" alt="" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" tabindex="-1" style="width: 242px;"><div><img src="./Малая компьютерная академия ШАГ_files/slide-learn.png" alt="" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide slick-cloned slick-active" data-slick-index="-1" aria-hidden="false" tabindex="-1" style="width: 242px;"><div><img src="./Малая компьютерная академия ШАГ_files/slide-learn.png" alt="" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide slick-current slick-active slick-center" data-slick-index="0" aria-hidden="false" style="width: 242px;"><div><img src="./Малая компьютерная академия ШАГ_files/slide-learn.png" alt="" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 242px;"><div><img src="./Малая компьютерная академия ШАГ_files/slide-learn.png" alt="" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide" data-slick-index="2" aria-hidden="true" style="width: 242px;"><div><img src="./Малая компьютерная академия ШАГ_files/slide-learn.png" alt="" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" style="width: 242px;"><div><img src="./Малая компьютерная академия ШАГ_files/slide-learn.png" alt="" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1" style="width: 242px;"><div><img src="./Малая компьютерная академия ШАГ_files/slide-learn.png" alt="" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide slick-cloned" data-slick-index="5" aria-hidden="true" tabindex="-1" style="width: 242px;"><div><img src="./Малая компьютерная академия ШАГ_files/slide-learn.png" alt="" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide slick-cloned slick-center" data-slick-index="6" aria-hidden="true" tabindex="-1" style="width: 242px;"><div><img src="./Малая компьютерная академия ШАГ_files/slide-learn.png" alt="" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide slick-cloned" data-slick-index="7" aria-hidden="true" tabindex="-1" style="width: 242px;"><div><img src="./Малая компьютерная академия ШАГ_files/slide-learn.png" alt="" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide slick-cloned" data-slick-index="8" aria-hidden="true" tabindex="-1" style="width: 242px;"><div><img src="./Малая компьютерная академия ШАГ_files/slide-learn.png" alt="" style="width: 100%; display: inline-block;"></div></div><div class="slick-slide slick-cloned" data-slick-index="9" aria-hidden="true" tabindex="-1" style="width: 242px;"><div><img src="./Малая компьютерная академия ШАГ_files/slide-learn.png" alt="" style="width: 100%; display: inline-block;"></div></div></div></div></div>
+				<div class="range__container">
+					<input type="range" id="range" min="1" value="3" step="1" max="5">
+				</div>
+		</div></section>
+		<section class="about-study">
+			<div class="container">
+				<div class="study">
+					<div class="head">
+					<div class="head__lines">
+						<div class="head__first-line"></div>
+						<div class="head__second-line"></div>
+					</div>
+					<h2 class="head__title">Формы обучения</h2>
+					</div>
+					<div class="study__content">
+						<img src="./Малая компьютерная академия ШАГ_files/robot-small.png" alt="" class="study__img">
+						<div class="study__items">
+							<div class="study__item study__item--xl">
+								<h4 class="study__item-title">Занятия по выходным</h4>
+								<p class="study__text">Обучение по выходным для ребенка пролетает незаметно и освобождает три часа в расписании родителей в субботу или
+								воскресенье</p>
+								<div class="study__age-cost">от 10 до 14 лет</div>
+								<div class="study__dates">
+									<span class="study__subtitle">4 академических часа в день</span>
+									<span class="study__text">1 раз в неделю</span>
+								
+									<div class="study__date"><span style="font-weight: 500;">Суббота</span><br>
+									с 9:00 до 12:00<br>
+									или<br>
+									с 12:00 до 15:00</div>
+									<div class="study__date"><span style="font-weight: 500;">Воскресенье</span><br>
+									с 12:00 до 15:00<br>
+									или<br>
+									с 15:00 до 18:00</div>
+								</div>
+								<div class="study__age-cost">от 1185 ₴ в месяц</div>
+								<a href="http://localhost:3000/#" class="btn btn--study">Записаться</a>
+							</div>
+							<div class="study__item">
+								<h4 class="study__item-title">Занятия по будням</h4>
+								<p class="study__text">Занятия по будням позволяют равномерно распределить учебную нагрузку по неделе и чаще встречаться с любимыми
+								преподавателями</p>
+								<div class="study__age-cost">от 8 до 14 лет</div>
+								<div class="study__dates">
+								<span class="study__subtitle">2 академических часа в день</span>
+								<span class="study__text">3 раза в неделю</span>
+								
+										<div class="study__date study__date--long"><span style="font-weight: 500;">Понедельник</span><br>
+										с 16:00 до 19:00</div>
+										<div class="study__date"><span style="font-weight: 500;">Вторник и Четверг</span><br> с 16:30 до 18:00</div>
+										<div class="study__date"><span style="font-weight: 500;">Среда и Пятница</span><br>
+										с 15:00 до 16:30</div>
+									</div>
+									<div class="study__age-cost">от 1030 ₴ в месяц</div>
+									<a href="http://localhost:3000/#" class="btn btn--study">Записаться</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="teachers">
+					<div class="head">
+						<div class="head__lines">
+							<div class="head__first-line"></div>
+							<div class="head__second-line"></div>
+						</div>
+						<h2 class="head__title">Наши педагоги</h2>
+					</div>
+					<div class="teachers__wrap">
+						<div class="teacher teacher--one">
+							<div class="teacher__photo">
+								<img class="teacher__img teacher__img--one" src="./Малая компьютерная академия ШАГ_files/about-education.jpg" alt="man">
+							</div>
+							<h4 class="teacher__title">Ян Ковальски</h4>
+							<div class="teacher__disck">Преподаватель по программированию</div>
+							<div class="teacher__exp-ped"><span style="font-weight: 700">Опыт работы в педагогике</span><br>8 лет</div>
+							<div class="teacher__exp-it"><span style="font-weight: 700">Опыт работы в IT</span><br>Руководил детскими проектами</div>
+						</div>
+						<div class="teacher teacher--two">
+							<div class="teacher__photo">
+								<img class="teacher__img" src="./Малая компьютерная академия ШАГ_files/teacher2.jpg" alt="woman">
+							</div>
+							<h4 class="teacher__title">Катя Янишевская</h4>
+							<div class="teacher__disck">Преподаватель по графике и логике у детей</div>
+							<div class="teacher__exp-ped"><span style="font-weight: 700">Опыт работы в педагогике</span><br>8 лет</div>
+							<div class="teacher__exp-it"><span style="font-weight: 700">Опыт работы в IT</span><br>Ведет театральную школу и меняльную арифметику</div>
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+		</section>
+		<section class="feedback">
+			<div class="container">
+				<div class="head">
+					<div class="head__lines">
+						<div class="head__first-line"></div>
+						<div class="head__second-line head__second-line--white"></div>
+					</div>
+					<h2 class="head__title head__title--white">Отзывы</h2>
+				</div>
+				<div class="feedback__items slider2 slick-initialized slick-slider slick-dotted"><div class="slick-list draggable" style="padding: 0px 50px;"><div class="slick-track" style="opacity: 1; width: 4044px; transform: translate3d(-747px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-4" aria-hidden="true" tabindex="-1" style="width: 249px;"><div><a href="http://localhost:3000/#" class="feedback__item" style="width: 100%; display: inline-block;" tabindex="-1">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="63" viewBox="0 0 35 63">
+  							<image id="" width="35" height="63" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA/CAQAAADAxLkyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxEXDCyBhbl8AAABNElEQVRYw2P8z0AU0GDwY7Bi0GSQY+DAkPvC4M/wnxBk/B/6/9R//KCPhYArFBkWMtgSdCsTfmOcGNYx8BPjZ3zG2DFsZ2AjLuiYcMrIMWwk1hB8xsxhECDWENzGeDG4Em8IbmNKSTEElzEKDA7UMMafNENwGWNFoinnsKcbXTxa3jLMYTjN8BZJ5DXDVez56BvO3PP6vyw2Hdg8xcrAidMt8xkeExs23Hi8dJaUIMYNflLHGBxg1BjcgIWBmcEXrWThwqPeCUspdJ7hIsP/wv+Ugp//xZgY5Cn2ERuD1OAK4lFjRpwxX6hgykcWhj4GTgZhFEE2hkicGvYzPMIQO8xwH1v1IoAnGwZgb9oNtiAeNWbUmFFjRo0ZNWbUGELG/MOj/g8Ocay14A4cdeb9/yLYa00AzHkmkVLvtG4AAAAASUVORK5CYII="></image>
+						</svg>
+					</a></div></div><div class="slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" tabindex="-1" style="width: 249px;"><div><a href="http://localhost:3000/#" class="feedback__item" style="width: 100%; display: inline-block;" tabindex="-1">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="63" viewBox="0 0 35 63">
+  							<image id="" width="35" height="63" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA/CAQAAADAxLkyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxEXDCyBhbl8AAABNElEQVRYw2P8z0AU0GDwY7Bi0GSQY+DAkPvC4M/wnxBk/B/6/9R//KCPhYArFBkWMtgSdCsTfmOcGNYx8BPjZ3zG2DFsZ2AjLuiYcMrIMWwk1hB8xsxhECDWENzGeDG4Em8IbmNKSTEElzEKDA7UMMafNENwGWNFoinnsKcbXTxa3jLMYTjN8BZJ5DXDVez56BvO3PP6vyw2Hdg8xcrAidMt8xkeExs23Hi8dJaUIMYNflLHGBxg1BjcgIWBmcEXrWThwqPeCUspdJ7hIsP/wv+Ugp//xZgY5Cn2ERuD1OAK4lFjRpwxX6hgykcWhj4GTgZhFEE2hkicGvYzPMIQO8xwH1v1IoAnGwZgb9oNtiAeNWbUmFFjRo0ZNWbUGELG/MOj/g8Ocay14A4cdeb9/yLYa00AzHkmkVLvtG4AAAAASUVORK5CYII="></image>
+						</svg>
+					</a></div></div><div class="slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" tabindex="-1" style="width: 249px;"><div><a href="http://localhost:3000/#" class="feedback__item" style="width: 100%; display: inline-block;" tabindex="-1">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="63" viewBox="0 0 35 63">
+  							<image id="" width="35" height="63" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA/CAQAAADAxLkyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxEXDCyBhbl8AAABNElEQVRYw2P8z0AU0GDwY7Bi0GSQY+DAkPvC4M/wnxBk/B/6/9R//KCPhYArFBkWMtgSdCsTfmOcGNYx8BPjZ3zG2DFsZ2AjLuiYcMrIMWwk1hB8xsxhECDWENzGeDG4Em8IbmNKSTEElzEKDA7UMMafNENwGWNFoinnsKcbXTxa3jLMYTjN8BZJ5DXDVez56BvO3PP6vyw2Hdg8xcrAidMt8xkeExs23Hi8dJaUIMYNflLHGBxg1BjcgIWBmcEXrWThwqPeCUspdJ7hIsP/wv+Ugp//xZgY5Cn2ERuD1OAK4lFjRpwxX6hgykcWhj4GTgZhFEE2hkicGvYzPMIQO8xwH1v1IoAnGwZgb9oNtiAeNWbUmFFjRo0ZNWbUGELG/MOj/g8Ocay14A4cdeb9/yLYa00AzHkmkVLvtG4AAAAASUVORK5CYII="></image>
+						</svg>
+					</a></div></div><div class="slick-slide slick-cloned slick-active" data-slick-index="-1" aria-hidden="false" tabindex="-1" style="width: 249px;"><div><a href="http://localhost:3000/#" class="feedback__item" style="width: 100%; display: inline-block;" tabindex="0">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="63" viewBox="0 0 35 63">
+  							<image id="" width="35" height="63" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA/CAQAAADAxLkyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxEXDCyBhbl8AAABNElEQVRYw2P8z0AU0GDwY7Bi0GSQY+DAkPvC4M/wnxBk/B/6/9R//KCPhYArFBkWMtgSdCsTfmOcGNYx8BPjZ3zG2DFsZ2AjLuiYcMrIMWwk1hB8xsxhECDWENzGeDG4Em8IbmNKSTEElzEKDA7UMMafNENwGWNFoinnsKcbXTxa3jLMYTjN8BZJ5DXDVez56BvO3PP6vyw2Hdg8xcrAidMt8xkeExs23Hi8dJaUIMYNflLHGBxg1BjcgIWBmcEXrWThwqPeCUspdJ7hIsP/wv+Ugp//xZgY5Cn2ERuD1OAK4lFjRpwxX6hgykcWhj4GTgZhFEE2hkicGvYzPMIQO8xwH1v1IoAnGwZgb9oNtiAeNWbUmFFjRo0ZNWbUGELG/MOj/g8Ocay14A4cdeb9/yLYa00AzHkmkVLvtG4AAAAASUVORK5CYII="></image>
+						</svg>
+					</a></div></div><div class="slick-slide slick-current slick-active slick-center" data-slick-index="0" aria-hidden="false" role="tabpanel" id="slick-slide10" style="width: 249px;"><div><a href="http://localhost:3000/#" class="feedback__item" style="width: 100%; display: inline-block;" tabindex="0">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="63" viewBox="0 0 35 63">
+  							<image id="facebook-logo.svg" width="35" height="63" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA/CAQAAADAxLkyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxEXDCyBhbl8AAABNElEQVRYw2P8z0AU0GDwY7Bi0GSQY+DAkPvC4M/wnxBk/B/6/9R//KCPhYArFBkWMtgSdCsTfmOcGNYx8BPjZ3zG2DFsZ2AjLuiYcMrIMWwk1hB8xsxhECDWENzGeDG4Em8IbmNKSTEElzEKDA7UMMafNENwGWNFoinnsKcbXTxa3jLMYTjN8BZJ5DXDVez56BvO3PP6vyw2Hdg8xcrAidMt8xkeExs23Hi8dJaUIMYNflLHGBxg1BjcgIWBmcEXrWThwqPeCUspdJ7hIsP/wv+Ugp//xZgY5Cn2ERuD1OAK4lFjRpwxX6hgykcWhj4GTgZhFEE2hkicGvYzPMIQO8xwH1v1IoAnGwZgb9oNtiAeNWbUmFFjRo0ZNWbUGELG/MOj/g8Ocay14A4cdeb9/yLYa00AzHkmkVLvtG4AAAAASUVORK5CYII="></image>
+						</svg>
+					</a></div></div><div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" role="tabpanel" id="slick-slide11" style="width: 249px;"><div><a href="http://localhost:3000/#" class="feedback__item" style="width: 100%; display: inline-block;" tabindex="0">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="63" viewBox="0 0 35 63">
+  							<image id="facebook-logo.svg" width="35" height="63" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA/CAQAAADAxLkyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxEXDCyBhbl8AAABNElEQVRYw2P8z0AU0GDwY7Bi0GSQY+DAkPvC4M/wnxBk/B/6/9R//KCPhYArFBkWMtgSdCsTfmOcGNYx8BPjZ3zG2DFsZ2AjLuiYcMrIMWwk1hB8xsxhECDWENzGeDG4Em8IbmNKSTEElzEKDA7UMMafNENwGWNFoinnsKcbXTxa3jLMYTjN8BZJ5DXDVez56BvO3PP6vyw2Hdg8xcrAidMt8xkeExs23Hi8dJaUIMYNflLHGBxg1BjcgIWBmcEXrWThwqPeCUspdJ7hIsP/wv+Ugp//xZgY5Cn2ERuD1OAK4lFjRpwxX6hgykcWhj4GTgZhFEE2hkicGvYzPMIQO8xwH1v1IoAnGwZgb9oNtiAeNWbUmFFjRo0ZNWbUGELG/MOj/g8Ocay14A4cdeb9/yLYa00AzHkmkVLvtG4AAAAASUVORK5CYII="></image>
+						</svg>
+					</a></div></div><div class="slick-slide" data-slick-index="2" aria-hidden="true" role="tabpanel" id="slick-slide12" style="width: 249px;"><div><a href="http://localhost:3000/#" class="feedback__item" style="width: 100%; display: inline-block;" tabindex="-1">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="63" viewBox="0 0 35 63">
+  							<image id="facebook-logo.svg" width="35" height="63" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA/CAQAAADAxLkyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxEXDCyBhbl8AAABNElEQVRYw2P8z0AU0GDwY7Bi0GSQY+DAkPvC4M/wnxBk/B/6/9R//KCPhYArFBkWMtgSdCsTfmOcGNYx8BPjZ3zG2DFsZ2AjLuiYcMrIMWwk1hB8xsxhECDWENzGeDG4Em8IbmNKSTEElzEKDA7UMMafNENwGWNFoinnsKcbXTxa3jLMYTjN8BZJ5DXDVez56BvO3PP6vyw2Hdg8xcrAidMt8xkeExs23Hi8dJaUIMYNflLHGBxg1BjcgIWBmcEXrWThwqPeCUspdJ7hIsP/wv+Ugp//xZgY5Cn2ERuD1OAK4lFjRpwxX6hgykcWhj4GTgZhFEE2hkicGvYzPMIQO8xwH1v1IoAnGwZgb9oNtiAeNWbUmFFjRo0ZNWbUGELG/MOj/g8Ocay14A4cdeb9/yLYa00AzHkmkVLvtG4AAAAASUVORK5CYII="></image>
+						</svg>
+					</a></div></div><div class="slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide13" style="width: 249px;"><div><a href="http://localhost:3000/#" class="feedback__item" style="width: 100%; display: inline-block;" tabindex="-1">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="63" viewBox="0 0 35 63">
+  							<image id="facebook-logo.svg" width="35" height="63" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA/CAQAAADAxLkyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxEXDCyBhbl8AAABNElEQVRYw2P8z0AU0GDwY7Bi0GSQY+DAkPvC4M/wnxBk/B/6/9R//KCPhYArFBkWMtgSdCsTfmOcGNYx8BPjZ3zG2DFsZ2AjLuiYcMrIMWwk1hB8xsxhECDWENzGeDG4Em8IbmNKSTEElzEKDA7UMMafNENwGWNFoinnsKcbXTxa3jLMYTjN8BZJ5DXDVez56BvO3PP6vyw2Hdg8xcrAidMt8xkeExs23Hi8dJaUIMYNflLHGBxg1BjcgIWBmcEXrWThwqPeCUspdJ7hIsP/wv+Ugp//xZgY5Cn2ERuD1OAK4lFjRpwxX6hgykcWhj4GTgZhFEE2hkicGvYzPMIQO8xwH1v1IoAnGwZgb9oNtiAeNWbUmFFjRo0ZNWbUGELG/MOj/g8Ocay14A4cdeb9/yLYa00AzHkmkVLvtG4AAAAASUVORK5CYII="></image>
+						</svg>
+					</a></div></div><div class="slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide14" style="width: 249px;"><div><a href="http://localhost:3000/#" class="feedback__item" style="width: 100%; display: inline-block;" tabindex="-1">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="63" viewBox="0 0 35 63">
+  							<image id="facebook-logo.svg" width="35" height="63" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA/CAQAAADAxLkyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxEXDCyBhbl8AAABNElEQVRYw2P8z0AU0GDwY7Bi0GSQY+DAkPvC4M/wnxBk/B/6/9R//KCPhYArFBkWMtgSdCsTfmOcGNYx8BPjZ3zG2DFsZ2AjLuiYcMrIMWwk1hB8xsxhECDWENzGeDG4Em8IbmNKSTEElzEKDA7UMMafNENwGWNFoinnsKcbXTxa3jLMYTjN8BZJ5DXDVez56BvO3PP6vyw2Hdg8xcrAidMt8xkeExs23Hi8dJaUIMYNflLHGBxg1BjcgIWBmcEXrWThwqPeCUspdJ7hIsP/wv+Ugp//xZgY5Cn2ERuD1OAK4lFjRpwxX6hgykcWhj4GTgZhFEE2hkicGvYzPMIQO8xwH1v1IoAnGwZgb9oNtiAeNWbUmFFjRo0ZNWbUGELG/MOj/g8Ocay14A4cdeb9/yLYa00AzHkmkVLvtG4AAAAASUVORK5CYII="></image>
+						</svg>
+					</a></div></div><div class="slick-slide" data-slick-index="5" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide15" style="width: 249px;"><div><a href="http://localhost:3000/#" class="feedback__item" style="width: 100%; display: inline-block;" tabindex="-1">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="63" viewBox="0 0 35 63">
+  							<image id="facebook-logo.svg" width="35" height="63" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA/CAQAAADAxLkyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxEXDCyBhbl8AAABNElEQVRYw2P8z0AU0GDwY7Bi0GSQY+DAkPvC4M/wnxBk/B/6/9R//KCPhYArFBkWMtgSdCsTfmOcGNYx8BPjZ3zG2DFsZ2AjLuiYcMrIMWwk1hB8xsxhECDWENzGeDG4Em8IbmNKSTEElzEKDA7UMMafNENwGWNFoinnsKcbXTxa3jLMYTjN8BZJ5DXDVez56BvO3PP6vyw2Hdg8xcrAidMt8xkeExs23Hi8dJaUIMYNflLHGBxg1BjcgIWBmcEXrWThwqPeCUspdJ7hIsP/wv+Ugp//xZgY5Cn2ERuD1OAK4lFjRpwxX6hgykcWhj4GTgZhFEE2hkicGvYzPMIQO8xwH1v1IoAnGwZgb9oNtiAeNWbUmFFjRo0ZNWbUGELG/MOj/g8Ocay14A4cdeb9/yLYa00AzHkmkVLvtG4AAAAASUVORK5CYII="></image>
+						</svg>
+					</a></div></div><div class="slick-slide slick-cloned" data-slick-index="6" aria-hidden="true" tabindex="-1" style="width: 249px;"><div><a href="http://localhost:3000/#" class="feedback__item" style="width: 100%; display: inline-block;" tabindex="-1">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="63" viewBox="0 0 35 63">
+  							<image id="" width="35" height="63" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA/CAQAAADAxLkyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxEXDCyBhbl8AAABNElEQVRYw2P8z0AU0GDwY7Bi0GSQY+DAkPvC4M/wnxBk/B/6/9R//KCPhYArFBkWMtgSdCsTfmOcGNYx8BPjZ3zG2DFsZ2AjLuiYcMrIMWwk1hB8xsxhECDWENzGeDG4Em8IbmNKSTEElzEKDA7UMMafNENwGWNFoinnsKcbXTxa3jLMYTjN8BZJ5DXDVez56BvO3PP6vyw2Hdg8xcrAidMt8xkeExs23Hi8dJaUIMYNflLHGBxg1BjcgIWBmcEXrWThwqPeCUspdJ7hIsP/wv+Ugp//xZgY5Cn2ERuD1OAK4lFjRpwxX6hgykcWhj4GTgZhFEE2hkicGvYzPMIQO8xwH1v1IoAnGwZgb9oNtiAeNWbUmFFjRo0ZNWbUGELG/MOj/g8Ocay14A4cdeb9/yLYa00AzHkmkVLvtG4AAAAASUVORK5CYII="></image>
+						</svg>
+					</a></div></div><div class="slick-slide slick-cloned" data-slick-index="7" aria-hidden="true" tabindex="-1" style="width: 249px;"><div><a href="http://localhost:3000/#" class="feedback__item" style="width: 100%; display: inline-block;" tabindex="-1">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="63" viewBox="0 0 35 63">
+  							<image id="" width="35" height="63" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA/CAQAAADAxLkyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxEXDCyBhbl8AAABNElEQVRYw2P8z0AU0GDwY7Bi0GSQY+DAkPvC4M/wnxBk/B/6/9R//KCPhYArFBkWMtgSdCsTfmOcGNYx8BPjZ3zG2DFsZ2AjLuiYcMrIMWwk1hB8xsxhECDWENzGeDG4Em8IbmNKSTEElzEKDA7UMMafNENwGWNFoinnsKcbXTxa3jLMYTjN8BZJ5DXDVez56BvO3PP6vyw2Hdg8xcrAidMt8xkeExs23Hi8dJaUIMYNflLHGBxg1BjcgIWBmcEXrWThwqPeCUspdJ7hIsP/wv+Ugp//xZgY5Cn2ERuD1OAK4lFjRpwxX6hgykcWhj4GTgZhFEE2hkicGvYzPMIQO8xwH1v1IoAnGwZgb9oNtiAeNWbUmFFjRo0ZNWbUGELG/MOj/g8Ocay14A4cdeb9/yLYa00AzHkmkVLvtG4AAAAASUVORK5CYII="></image>
+						</svg>
+					</a></div></div><div class="slick-slide slick-cloned slick-center" data-slick-index="8" aria-hidden="true" tabindex="-1" style="width: 249px;"><div><a href="http://localhost:3000/#" class="feedback__item" style="width: 100%; display: inline-block;" tabindex="-1">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="63" viewBox="0 0 35 63">
+  							<image id="" width="35" height="63" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA/CAQAAADAxLkyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxEXDCyBhbl8AAABNElEQVRYw2P8z0AU0GDwY7Bi0GSQY+DAkPvC4M/wnxBk/B/6/9R//KCPhYArFBkWMtgSdCsTfmOcGNYx8BPjZ3zG2DFsZ2AjLuiYcMrIMWwk1hB8xsxhECDWENzGeDG4Em8IbmNKSTEElzEKDA7UMMafNENwGWNFoinnsKcbXTxa3jLMYTjN8BZJ5DXDVez56BvO3PP6vyw2Hdg8xcrAidMt8xkeExs23Hi8dJaUIMYNflLHGBxg1BjcgIWBmcEXrWThwqPeCUspdJ7hIsP/wv+Ugp//xZgY5Cn2ERuD1OAK4lFjRpwxX6hgykcWhj4GTgZhFEE2hkicGvYzPMIQO8xwH1v1IoAnGwZgb9oNtiAeNWbUmFFjRo0ZNWbUGELG/MOj/g8Ocay14A4cdeb9/yLYa00AzHkmkVLvtG4AAAAASUVORK5CYII="></image>
+						</svg>
+					</a></div></div><div class="slick-slide slick-cloned" data-slick-index="9" aria-hidden="true" tabindex="-1" style="width: 249px;"><div><a href="http://localhost:3000/#" class="feedback__item" style="width: 100%; display: inline-block;" tabindex="-1">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="63" viewBox="0 0 35 63">
+  							<image id="" width="35" height="63" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA/CAQAAADAxLkyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxEXDCyBhbl8AAABNElEQVRYw2P8z0AU0GDwY7Bi0GSQY+DAkPvC4M/wnxBk/B/6/9R//KCPhYArFBkWMtgSdCsTfmOcGNYx8BPjZ3zG2DFsZ2AjLuiYcMrIMWwk1hB8xsxhECDWENzGeDG4Em8IbmNKSTEElzEKDA7UMMafNENwGWNFoinnsKcbXTxa3jLMYTjN8BZJ5DXDVez56BvO3PP6vyw2Hdg8xcrAidMt8xkeExs23Hi8dJaUIMYNflLHGBxg1BjcgIWBmcEXrWThwqPeCUspdJ7hIsP/wv+Ugp//xZgY5Cn2ERuD1OAK4lFjRpwxX6hgykcWhj4GTgZhFEE2hkicGvYzPMIQO8xwH1v1IoAnGwZgb9oNtiAeNWbUmFFjRo0ZNWbUGELG/MOj/g8Ocay14A4cdeb9/yLYa00AzHkmkVLvtG4AAAAASUVORK5CYII="></image>
+						</svg>
+					</a></div></div><div class="slick-slide slick-cloned" data-slick-index="10" aria-hidden="true" tabindex="-1" style="width: 249px;"><div><a href="http://localhost:3000/#" class="feedback__item" style="width: 100%; display: inline-block;" tabindex="-1">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="63" viewBox="0 0 35 63">
+  							<image id="" width="35" height="63" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA/CAQAAADAxLkyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxEXDCyBhbl8AAABNElEQVRYw2P8z0AU0GDwY7Bi0GSQY+DAkPvC4M/wnxBk/B/6/9R//KCPhYArFBkWMtgSdCsTfmOcGNYx8BPjZ3zG2DFsZ2AjLuiYcMrIMWwk1hB8xsxhECDWENzGeDG4Em8IbmNKSTEElzEKDA7UMMafNENwGWNFoinnsKcbXTxa3jLMYTjN8BZJ5DXDVez56BvO3PP6vyw2Hdg8xcrAidMt8xkeExs23Hi8dJaUIMYNflLHGBxg1BjcgIWBmcEXrWThwqPeCUspdJ7hIsP/wv+Ugp//xZgY5Cn2ERuD1OAK4lFjRpwxX6hgykcWhj4GTgZhFEE2hkicGvYzPMIQO8xwH1v1IoAnGwZgb9oNtiAeNWbUmFFjRo0ZNWbUGELG/MOj/g8Ocay14A4cdeb9/yLYa00AzHkmkVLvtG4AAAAASUVORK5CYII="></image>
+						</svg>
+					</a></div></div><div class="slick-slide slick-cloned" data-slick-index="11" aria-hidden="true" tabindex="-1" style="width: 249px;"><div><a href="http://localhost:3000/#" class="feedback__item" style="width: 100%; display: inline-block;" tabindex="-1">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="63" viewBox="0 0 35 63">
+  							<image id="" width="35" height="63" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA/CAQAAADAxLkyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxEXDCyBhbl8AAABNElEQVRYw2P8z0AU0GDwY7Bi0GSQY+DAkPvC4M/wnxBk/B/6/9R//KCPhYArFBkWMtgSdCsTfmOcGNYx8BPjZ3zG2DFsZ2AjLuiYcMrIMWwk1hB8xsxhECDWENzGeDG4Em8IbmNKSTEElzEKDA7UMMafNENwGWNFoinnsKcbXTxa3jLMYTjN8BZJ5DXDVez56BvO3PP6vyw2Hdg8xcrAidMt8xkeExs23Hi8dJaUIMYNflLHGBxg1BjcgIWBmcEXrWThwqPeCUspdJ7hIsP/wv+Ugp//xZgY5Cn2ERuD1OAK4lFjRpwxX6hgykcWhj4GTgZhFEE2hkicGvYzPMIQO8xwH1v1IoAnGwZgb9oNtiAeNWbUmFFjRo0ZNWbUGELG/MOj/g8Ocay14A4cdeb9/yLYa00AzHkmkVLvtG4AAAAASUVORK5CYII="></image>
+						</svg>
+					</a></div></div></div></div><ul class="slick-dots" style="" role="tablist"><li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control10" aria-controls="slick-slide10" aria-label="1 of 2" tabindex="0" aria-selected="true">1</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control11" aria-controls="slick-slide11" aria-label="2 of 2" tabindex="-1">2</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control12" aria-controls="slick-slide12" aria-label="3 of 2" tabindex="-1">3</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control13" aria-controls="slick-slide13" aria-label="4 of 2" tabindex="-1">4</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control14" aria-controls="slick-slide14" aria-label="5 of 2" tabindex="-1">5</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control15" aria-controls="slick-slide15" aria-label="6 of 2" tabindex="-1">6</button></li></ul></div>
+			</div>	
+		</section>
+		<section class="form">
+			<div class="container">
+				<div class="form__wrap">
+					<div class="form__img-wrap"><img src="./Малая компьютерная академия ШАГ_files/form-pic.jpg" alt="" class="form__img"></div>
+					<form action="http://localhost:3000/GET" class="form__main">
+						<label for="" class="form__title">Заполните форму и получите бесплатную консультацию</label>
+						<svg class="form__input-pic form__input-pic--book" width="21" height="27" viewBox="0 0 21 27">
+  						<image id="name-book.svg" width="21" height="27" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAbCAMAAACkwzTUAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAllBMVEVwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqBwKqAAAAAcwYvpAAAAMHRSTlMBk/c7YJ8wzL40JNky5dp9p352rnfIQ/nKnShOKZ744N9SMUrYLcQ80tRRqT6A7rDjAFfAAAAAAWJLR0Qx2dsdcgAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB+MHEws3A6nT+YIAAACZSURBVCjPY2BgZDJABUyMDAzMBpiAmYEFwmBlAwF2CIcFJooCaC/KwcnFyYEuys3Da8DLw4cmyi8AJAQE0USFhIGEsAiaqKiYuIG4mAS6bZJS0jKymC5j4pPD4l45eUxRBUUlZSVFBVRRFVU1IKmmqoIiqq4BpjTUkUU1taAmamkiiWrr6EKAjjaSqJ4+DOhRK9SxpwesaQcA8gRZHOoEbC0AAAAASUVORK5CYII="></image>
+						</svg>
+						<input type="text" class="form__input--name form__input" required="">
+						<svg class="form__input-pic form__input-pic--tel" width="18" height="28" viewBox="0 0 18 28">
+ 						<image id="smartphone-call.svg" width="18" height="28" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAcBAMAAACe6vIUAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAKlBMVEX////nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP8AAAAtiRZJAAAADHRSTlMAfvcY9ZAwmIB4SH2qrVbrAAAAAWJLR0QN9rRh9QAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB+MHEws2GU2qMbkAAAA/SURBVBjTY2DUOQMChwQYbM6ccQ0NOXPmMEPOGQg4xpCTwAACbMOIVdEBAu3HwL6cCfYl0OdnVp0B+ZwbFhoAEAZJOWsGVfkAAAAASUVORK5CYII="></image>
+						</svg>
+
+						<input type="tel" class="form__input--tel form__input" pattern="[+]+[0-9]{5,12}" required="">
+						<svg class="form__input-pic form__input-pic--mail" width="23" height="19" viewBox="0 0 23 19">
+  						<image id="mail.svg" width="23" height="19" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAATCAMAAABMZWaEAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAqFBMVEX////nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP8AAADzvY9oAAAANnRSTlMAHDA19oESNOn72CHDTQep/WoBim/ECk7SxddL5R44dDfxLibrL/pBGN5WDs78cAa6VaNlGSBTZC8TAAAAAWJLR0Q3MLi4RwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB+MHEws2JWLFTT4AAADESURBVBjTZdHnAoIgFAXgYxEqapmZlqOl7WmD93+0wMyUzj8+1uUCQOuo0SDSJVwN6QI9qhsKGzrtwWSWxVoswUQ5bTfYLg+APM7pD2oe9B15oXTuDr1RxSNv6PKv18Pfgsq5D7GdOPB5y8dBSPWJTsNg2vSIxi6zYDE3ptHPk3QmajDmoj6ySJOvL1dZXteZZ+vlxzfb3b7xrv1uuyn9cDy1+nA6HoSfL9eb0rfb9XJG4d3/+nz3CuDB//OQH/N8qXkCb6IbRFwY/ClSAAAAAElFTkSuQmCC"></image>
+						</svg>
+						<input type="email" class="form__input--mail form__input" required="">
+						<button type="submit" class="btn btn--form">Записаться</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<section class="about-students">
+			<div class="container">
+				<p class="about-students__text">Наши студенты становятся настоящими друзьями. В академии и вне ее стен ребята общаются и работают над совместными разработками и стартапами. Объединенные общим интересом к компьютерным технологиям, они идут к успеху вместе.
+				</p>
+			</div>
+		</section>
+		<section class="contacts">
+			<div class="container">
+				<div class="head">
+					<div class="head__lines">
+						<div class="head__first-line"></div>
+						<div class="head__second-line"></div>
+					</div>
+					<h2 class="head__title head__title">наши КОНТАКТЫ</h2>
+				</div>
+				<div class="contacts__wrap-location">
+					<div class="map" id="map" style="position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-style" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"><div tabindex="0" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: pan-x pan-y;"><div style="z-index: 1; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 987; transform: matrix(1, 0, 0, 1, -242, -72);"><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div style="position: absolute; z-index: 987; transform: matrix(1, 0, 0, 1, -242, -72);"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 256px;"></div></div></div><div style="width: 46px; height: 62px; overflow: hidden; position: absolute; left: -23px; top: -62px; z-index: 0;"><img alt="" src="./Малая компьютерная академия ШАГ_files/maps-flag.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 46px; height: 62px; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 987; transform: matrix(1, 0, 0, 1, -242, -72);"><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Малая компьютерная академия ШАГ_files/vt" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Малая компьютерная академия ШАГ_files/vt(1)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Малая компьютерная академия ШАГ_files/vt(2)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Малая компьютерная академия ШАГ_files/vt(3)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Малая компьютерная академия ШАГ_files/vt(4)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Малая компьютерная академия ШАГ_files/vt(5)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><div class="gm-style-pbc" style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;"><p class="gm-style-pbt"></p></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;"><div style="z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"><div title="Малая компьютерная академия ШАГ" style="width: 46px; height: 62px; overflow: hidden; position: absolute; opacity: 0; cursor: pointer; touch-action: none; left: -23px; top: -62px; z-index: 0;"><img alt="" src="./Малая компьютерная академия ШАГ_files/maps-flag.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 46px; height: 62px; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div></div><iframe aria-hidden="true" frameborder="0" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;" src="./Малая компьютерная академия ШАГ_files/saved_resource.html"></iframe><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" rel="noopener" href="https://maps.google.com/maps?ll=47.091689,37.526907&amp;z=13&amp;t=m&amp;hl=ru&amp;gl=US&amp;mapclient=apiv3" title="Открыть эту область в Google Картах (в новом окне)" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 66px; height: 26px; cursor: pointer;"><img alt="" src="./Малая компьютерная академия ШАГ_files/google4.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 300px; height: 180px; position: absolute; left: 76px; top: 199px;"><div style="padding: 0px 0px 10px; font-size: 16px; box-sizing: border-box;">Картографические данные</div><div style="font-size: 13px;">Картографические данные © 2019 Google</div><button draggable="false" title="Закрыть" aria-label="Закрыть" type="button" class="gm-ui-hover-effect" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: absolute; cursor: pointer; user-select: none; top: 0px; right: 0px; width: 37px; height: 37px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%206.41L17.59%205%2012%2010.59%206.41%205%205%206.41%2010.59%2012%205%2017.59%206.41%2019%2012%2013.41%2017.59%2019%2019%2017.59%2013.41%2012z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="pointer-events: none; display: block; width: 13px; height: 13px; margin: 12px;"></button></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 127px; bottom: 0px; width: 208px;"><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="text-decoration: none; cursor: pointer; display: none;">Картографические данные</a><span>Картографические данные © 2019 Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Картографические данные © 2019 Google</div></div><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/ru_US/help/terms_maps.html" target="_blank" rel="noopener" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Условия использования</a></div></div><button draggable="false" title="Включить полноэкранный режим" aria-label="Включить полноэкранный режим" type="button" class="gm-control-active gm-fullscreen-control" style="background: none rgb(255, 255, 255); border: 0px; margin: 10px; padding: 0px; position: absolute; cursor: pointer; user-select: none; border-radius: 2px; height: 40px; width: 40px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; overflow: hidden; top: 0px; right: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%20018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; display: none; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_blank" rel="noopener" title="Сообщить об ошибке на карте или снимке" href="https://www.google.com/maps/@47.091689,37.526907,13z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Сообщить об ошибке на карте</a></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" controlwidth="40" controlheight="153" style="margin: 10px; user-select: none; position: absolute; bottom: 167px; right: 40px;"><div class="gmnoprint" controlwidth="40" controlheight="81" style="position: absolute; left: 0px; top: 72px;"><div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 40px; height: 81px;"><button draggable="false" title="Увеличить" aria-label="Увеличить" type="button" class="gm-control-active" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23333%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23111%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button><div style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); top: 0px;"></div><button draggable="false" title="Уменьшить" aria-label="Уменьшить" type="button" class="gm-control-active" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button></div></div><div class="gm-svpc" dir="ltr" title="Перетащите человечка на карту, чтобы перейти в режим просмотра улиц" controlwidth="40" controlheight="40" style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; width: 40px; height: 40px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: none; position: absolute; left: 0px; top: 0px;"><div style="position: absolute; left: 50%; top: 50%;"></div><div style="position: absolute; left: 50%; top: 50%;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2223%22%20height%3D%2238%22%20viewBox%3D%220%200%2023%2038%22%3E%0A%3Cpath%20d%3D%22M16.6%2C38.1h-5.5l-0.2-2.9-0.2%2C2.9h-5.5L5%2C25.3l-0.8%2C2a1.53%2C1.53%2C0%2C0%2C1-1.9.9l-1.2-.4a1.58%2C1.58%2C0%2C0%2C1-1-1.9v-0.1c0.3-.9%2C3.1-11.2%2C3.1-11.2a2.66%2C2.66%2C0%2C0%2C1%2C2.3-2l0.6-.5a6.93%2C6.93%2C0%2C0%2C1%2C4.7-12%2C6.8%2C6.8%2C0%2C0%2C1%2C4.9%2C2%2C7%2C7%2C0%2C0%2C1%2C2%2C4.9%2C6.65%2C6.65%2C0%2C0%2C1-2.2%2C5l0.7%2C0.5a2.78%2C2.78%2C0%2C0%2C1%2C2.4%2C2s2.9%2C11.2%2C2.9%2C11.3a1.53%2C1.53%2C0%2C0%2C1-.9%2C1.9l-1.3.4a1.63%2C1.63%2C0%2C0%2C1-1.9-.9l-0.7-1.8-0.1%2C12.7h0Zm-3.6-2h1.7L14.9%2C20.3l1.9-.3%2C2.4%2C6.3%2C0.3-.1c-0.2-.8-0.8-3.2-2.8-10.9a0.63%2C0.63%2C0%2C0%2C0-.6-0.5h-0.6l-1.1-.9h-1.9l-0.3-2a4.83%2C4.83%2C0%2C0%2C0%2C3.5-4.7A4.78%2C4.78%200%200%2C0%2011%202.3H10.8a4.9%2C4.9%2C0%2C0%2C0-1.4%2C9.6l-0.3%2C2h-1.9l-1%2C.9h-0.6a0.74%2C0.74%2C0%2C0%2C0-.6.5c-2%2C7.5-2.7%2C10-3%2C10.9l0.3%2C0.1%2C2.5-6.3%2C1.9%2C0.3%2C0.2%2C15.8h1.6l0.6-8.4a1.52%2C1.52%2C0%2C0%2C1%2C1.5-1.4%2C1.5%2C1.5%2C0%2C0%2C1%2C1.5%2C1.4l0.9%2C8.4h0Zm-10.9-9.6h0Zm17.5-.1h0Z%22%20style%3D%22fill%3A%23333%3Bopacity%3A0.7%3Bisolation%3Aisolate%22%2F%3E%0A%3Cpath%20d%3D%22M5.9%2C13.6l1.1-.9h7.8l1.2%2C0.9%22%20style%3D%22fill%3A%23ce592c%22%2F%3E%0A%3Cellipse%20cx%3D%2210.9%22%20cy%3D%2213.1%22%20rx%3D%222.7%22%20ry%3D%220.3%22%20style%3D%22fill%3A%23ce592c%3Bopacity%3A0.5%3Bisolation%3Aisolate%22%2F%3E%0A%3Cpath%20d%3D%22M20.6%2C26.1l-2.9-11.3a1.71%2C1.71%2C0%2C0%2C0-1.6-1.2H5.7a1.69%2C1.69%2C0%2C0%2C0-1.5%2C1.3l-3.1%2C11.3a0.61%2C0.61%2C0%2C0%2C0%2C.3.7l1.1%2C0.4a0.61%2C0.61%2C0%2C0%2C0%2C.7-0.3l2.7-6.7%2C0.2%2C16.8h3.6l0.6-9.3a0.47%2C0.47%2C0%2C0%2C1%2C.44-0.5h0.06c0.4%2C0%2C.4.2%2C0.5%2C0.5l0.6%2C9.3h3.6L15.7%2C20.3l2.5%2C6.6a0.52%2C0.52%2C0%2C0%2C0%2C.66.31h0l1.2-.4a0.57%2C0.57%2C0%2C0%2C0%2C.5-0.7h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%2F%3E%0A%3Cpath%20d%3D%22M7%2C13.6l3.9%2C6.7%2C3.9-6.7%22%20style%3D%22fill%3A%23cf572e%3Bopacity%3A0.6%3Bisolation%3Aisolate%22%2F%3E%0A%3Ccircle%20cx%3D%2210.9%22%20cy%3D%227%22%20r%3D%225.9%22%20style%3D%22fill%3A%23fdbf2d%22%2F%3E%0A%3C%2Fsvg%3E%0A" aria-label="Управление человечком в режиме просмотра улиц" style="height: 30px; width: 30px; position: absolute; transform: translate(-50%, -50%); pointer-events: none;"><img src="data:image/svg+xml,%3Csvg%20width%3D%2224px%22%20height%3D%2238px%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2024%2038%22%3E%0A%3Cpath%20d%3D%22M22%2C26.6l-2.9-11.3a2.78%2C2.78%2C0%2C0%2C0-2.4-2l-0.7-.5a6.82%2C6.82%2C0%2C0%2C0%2C2.2-5%2C6.9%2C6.9%2C0%2C0%2C0-13.8%2C0%2C7%2C7%2C0%2C0%2C0%2C2.2%2C5.1l-0.6.5a2.55%2C2.55%2C0%2C0%2C0-2.3%2C2s-3%2C11.1-3%2C11.2v0.1a1.58%2C1.58%2C0%2C0%2C0%2C1%2C1.9l1.2%2C0.4a1.63%2C1.63%2C0%2C0%2C0%2C1.9-.9l0.8-2%2C0.2%2C12.8h11.3l0.2-12.6%2C0.7%2C1.8a1.54%2C1.54%2C0%2C0%2C0%2C1.5%2C1%2C1.09%2C1.09%2C0%2C0%2C0%2C.5-0.1l1.3-.4a1.85%2C1.85%2C0%2C0%2C0%2C.7-2h0Zm-1.2.9-1.2.4a0.61%2C0.61%2C0%2C0%2C1-.7-0.3l-2.5-6.6-0.2%2C16.8h-9.4L6.6%2C21l-2.7%2C6.7a0.52%2C0.52%2C0%2C0%2C1-.66.31h0l-1.1-.4a0.52%2C0.52%2C0%2C0%2C1-.31-0.66v0l3.1-11.3a1.69%2C1.69%2C0%2C0%2C1%2C1.5-1.3h0.2l1-.9h2.3a5.9%2C5.9%2C0%2C1%2C1%2C3.2%2C0h2.3l1.1%2C0.9h0.2a1.71%2C1.71%2C0%2C0%2C1%2C1.6%2C1.2l2.9%2C11.3a0.84%2C0.84%2C0%2C0%2C1-.4.7h0Z%22%20style%3D%22fill%3A%23333%3Bfill-opacity%3A0.2%22%2F%3E%22%0A%3C%2Fsvg%3E%0A%0A" aria-label="Человечек находится над картой" style="display: none; height: 30px; width: 30px; position: absolute; transform: translate(-50%, -50%); pointer-events: none;"><img src="data:image/svg+xml,%3Csvg%20width%3D%2240px%22%20height%3D%2250px%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2040%2050%22%3E%0A%3Cpath%20d%3D%22M34.00%2C-30.40l-2.9-11.3a2.78%2C2.78%2C0%2C0%2C0-2.4-2l-0.7-.5a6.82%2C6.82%2C0%2C0%2C0%2C2.2-5%2C6.9%2C6.9%2C0%2C0%2C0-13.8%2C0%2C7%2C7%2C0%2C0%2C0%2C2.2%2C5.1l-0.6.5a2.55%2C2.55%2C0%2C0%2C0-2.3%2C2s-3%2C11.1-3%2C11.2v0.1a1.58%2C1.58%2C0%2C0%2C0%2C1%2C1.9l1.2%2C0.4a1.63%2C1.63%2C0%2C0%2C0%2C1.9-.9l0.8-2%2C0.2%2C12.8h11.3l0.2-12.6%2C0.7%2C1.8a1.54%2C1.54%2C0%2C0%2C0%2C1.5%2C1%2C1.09%2C1.09%2C0%2C0%2C0%2C.5-0.1l1.3-.4a1.85%2C1.85%2C0%2C0%2C0%2C.7-2h0Zm-1.2.9-1.2.4a0.61%2C0.61%2C0%2C0%2C1-.7-0.3l-2.5-6.6-0.2%2C16.8h-9.4L18.60%2C-36.00l-2.7%2C6.7a0.52%2C0.52%2C0%2C0%2C1-.66.31h0l-1.1-.4a0.52%2C0.52%2C0%2C0%2C1-.31-0.66v0l3.1-11.3a1.69%2C1.69%2C0%2C0%2C1%2C1.5-1.3h0.2l1-.9h2.3a5.9%2C5.9%2C0%2C1%2C1%2C3.2%2C0h2.3l1.1%2C0.9h0.2a1.71%2C1.71%2C0%2C0%2C1%2C1.6%2C1.2l2.9%2C11.3a0.84%2C0.84%2C0%2C0%2C1-.4.7h0Zm1.2%2C59.1-2.9-11.3a2.78%2C2.78%2C0%2C0%2C0-2.4-2l-0.7-.5a6.82%2C6.82%2C0%2C0%2C0%2C2.2-5%2C6.9%2C6.9%2C0%2C0%2C0-13.8%2C0%2C7%2C7%2C0%2C0%2C0%2C2.2%2C5.1l-0.6.5a2.55%2C2.55%2C0%2C0%2C0-2.3%2C2s-3%2C11.1-3%2C11.2v0.1a1.58%2C1.58%2C0%2C0%2C0%2C1%2C1.9l1.2%2C0.4a1.63%2C1.63%2C0%2C0%2C0%2C1.9-.9l0.8-2%2C0.2%2C12.8h11.3l0.2-12.6%2C0.7%2C1.8a1.54%2C1.54%2C0%2C0%2C0%2C1.5%2C1%2C1.09%2C1.09%2C0%2C0%2C0%2C.5-0.1l1.3-.4a1.85%2C1.85%2C0%2C0%2C0%2C.7-2h0Zm-1.2.9-1.2.4a0.61%2C0.61%2C0%2C0%2C1-.7-0.3l-2.5-6.6-0.2%2C16.8h-9.4L18.60%2C24.00l-2.7%2C6.7a0.52%2C0.52%2C0%2C0%2C1-.66.31h0l-1.1-.4a0.52%2C0.52%2C0%2C0%2C1-.31-0.66v0l3.1-11.3a1.69%2C1.69%2C0%2C0%2C1%2C1.5-1.3h0.2l1-.9h2.3a5.9%2C5.9%2C0%2C1%2C1%2C3.2%2C0h2.3l1.1%2C0.9h0.2a1.71%2C1.71%2C0%2C0%2C1%2C1.6%2C1.2l2.9%2C11.3a0.84%2C0.84%2C0%2C0%2C1-.4.7h0Z%22%20style%3D%22fill%3A%23333%3Bfill-opacity%3A0.2%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M15.40%2C38.80h-4a1.64%2C1.64%2C0%2C0%2C1-1.4-1.1l-3.1-8a0.9%2C0.9%2C0%2C0%2C1-.5.1l-1.4.1a1.62%2C1.62%2C0%2C0%2C1-1.6-1.4l-1.1-13.1%2C1.6-1.3a6.87%2C6.87%2C0%2C0%2C1-3-4.6A7.14%2C7.14%200%200%2C1%202%204a7.6%2C7.6%2C0%2C0%2C1%2C4.7-3.1%2C7.14%2C7.14%2C0%2C0%2C1%2C5.5%2C1.1%2C7.28%2C7.28%2C0%2C0%2C1%2C2.3%2C9.6l2.1-.1%2C0.1%2C1c0%2C0.2.1%2C0.5%2C0.1%2C0.8a2.41%2C2.41%2C0%2C0%2C1%2C1%2C1s1.9%2C3.2%2C2.8%2C4.9c0.7%2C1.2%2C2.1%2C4.2%2C2.8%2C5.9a2.1%2C2.1%2C0%2C0%2C1-.8%2C2.6l-0.6.4a1.63%2C1.63%2C0%2C0%2C1-1.5.2l-0.6-.3a8.93%2C8.93%2C0%2C0%2C0%2C.5%2C1.3%2C7.91%2C7.91%2C0%2C0%2C0%2C1.8%2C2.6l0.6%2C0.3v4.6l-4.5-.1a7.32%2C7.32%2C0%2C0%2C1-2.5-1.5l-0.4%2C3.6h0Zm-10-19.2%2C3.5%2C9.8%2C2.9%2C7.5h1.6V35l-1.9-9.4%2C3.1%2C5.4a8.24%2C8.24%2C0%2C0%2C0%2C3.8%2C3.8h2.1v-1.4a14%2C14%2C0%2C0%2C1-2.2-3.1%2C44.55%2C44.55%2C0%2C0%2C1-2.2-8l-1.3-6.3%2C3.2%2C5.6c0.6%2C1.1%2C2.1%2C3.6%2C2.8%2C4.9l0.6-.4c-0.8-1.6-2.1-4.6-2.8-5.8-0.9-1.7-2.8-4.9-2.8-4.9a0.54%2C0.54%2C0%2C0%2C0-.4-0.3l-0.7-.1-0.1-.7a4.33%2C4.33%2C0%2C0%2C0-.1-0.5l-5.3.3%2C2.2-1.9a4.3%2C4.3%2C0%2C0%2C0%2C.9-1%2C5.17%2C5.17%2C0%2C0%2C0%2C.8-4%2C5.67%2C5.67%2C0%2C0%2C0-2.2-3.4%2C5.09%2C5.09%2C0%2C0%2C0-4-.8%2C5.67%2C5.67%2C0%2C0%2C0-3.4%2C2.2%2C5.17%2C5.17%2C0%2C0%2C0-.8%2C4%2C5.67%2C5.67%2C0%2C0%2C0%2C2.2%2C3.4%2C3.13%2C3.13%2C0%2C0%2C0%2C1%2C.5l1.6%2C0.6-3.2%2C2.6%2C1%2C11.5h0.4l-0.3-8.2h0Z%22%20style%3D%22fill%3A%23333%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M3.35%2C15.90l1.1%2C12.5a0.39%2C0.39%2C0%2C0%2C0%2C.36.42l0.14%2C0%2C1.4-.1a0.66%2C0.66%2C0%2C0%2C0%2C.5-0.4l-0.2-3.8-3.3-8.6h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M5.20%2C28.80l1.1-.1a0.66%2C0.66%2C0%2C0%2C0%2C.5-0.4l-0.2-3.8-1.2-3.1Z%22%20style%3D%22fill%3A%23ce592b%3Bfill-opacity%3A0.25%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M21.40%2C35.70l-3.8-1.2-2.7-7.8L12.00%2C15.5l3.4-2.9c0.2%2C2.4%2C2.2%2C14.1%2C3.7%2C17.1%2C0%2C0%2C1.3%2C2.6%2C2.3%2C3.1v2.9m-8.4-8.1-2-.3%2C2.5%2C10.1%2C0.9%2C0.4v-2.9%22%20style%3D%22fill%3A%23e5892b%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M17.80%2C25.40c-0.4-1.5-.7-3.1-1.1-4.8-0.1-.4-0.1-0.7-0.2-1.1l-1.1-2-1.7-1.6s0.9%2C5%2C2.4%2C7.1a19.12%2C19.12%2C0%2C0%2C0%2C1.7%2C2.4h0Z%22%20style%3D%22fill%3A%23cf572e%3Bopacity%3A0.6%3Bisolation%3Aisolate%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M14.40%2C37.80h-3a0.43%2C0.43%2C0%2C0%2C1-.4-0.4l-3-7.8-1.7-4.8-3-9%2C8.9-.4s2.9%2C11.3%2C4.3%2C14.4c1.9%2C4.1%2C3.1%2C4.7%2C5%2C5.8h-3.2s-4.1-1.2-5.9-7.7a0.59%2C0.59%2C0%2C0%2C0-.6-0.4%2C0.62%2C0.62%2C0%2C0%2C0-.3.7s0.5%2C2.4.9%2C3.6a34.87%2C34.87%2C0%2C0%2C0%2C2%2C6h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M15.40%2C12.70l-3.3%2C2.9-8.9.4%2C3.3-2.7%22%20style%3D%22fill%3A%23ce592b%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M9.10%2C21.10l1.4-6.2-5.9.5%22%20style%3D%22fill%3A%23cf572e%3Bopacity%3A0.6%3Bisolation%3Aisolate%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M12.00%2C13.5a4.75%2C4.75%2C0%2C0%2C1-2.6%2C1.1c-1.5.3-2.9%2C0.2-2.9%2C0s1.1-.6%2C2.7-1%22%20style%3D%22fill%3A%23bb3d19%22%3E%3C%2Fpath%3E%0A%3Ccircle%20cx%3D%227.92%22%20cy%3D%228.19%22%20r%3D%226.3%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fcircle%3E%0A%3Cpath%20d%3D%22M4.70%2C13.60a6.21%2C6.21%2C0%2C0%2C0%2C8.4-1.9v-0.1a8.89%2C8.89%2C0%2C0%2C1-8.4%2C2h0Z%22%20style%3D%22fill%3A%23ce592b%3Bfill-opacity%3A0.25%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M21.20%2C27.20l0.6-.4a1.09%2C1.09%2C0%2C0%2C0%2C.4-1.3c-0.7-1.5-2.1-4.6-2.8-5.8-0.9-1.7-2.8-4.9-2.8-4.9a1.6%2C1.6%2C0%2C0%2C0-2.17-.65l-0.23.15a1.68%2C1.68%2C0%2C0%2C0-.4%2C2.1s2.3%2C3.9%2C3.1%2C5.3c0.6%2C1%2C2.1%2C3.7%2C2.9%2C5.1a0.94%2C0.94%2C0%2C0%2C0%2C1.24.49l0.16-.09h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M19.40%2C19.80c-0.9-1.7-2.8-4.9-2.8-4.9a1.6%2C1.6%2C0%2C0%2C0-2.17-.65l-0.23.15-0.3.3c1.1%2C1.5%2C2.9%2C3.8%2C3.9%2C5.4%2C1.1%2C1.8%2C2.9%2C5%2C3.8%2C6.7l0.1-.1a1.09%2C1.09%2C0%2C0%2C0%2C.4-1.3%2C57.67%2C57.67%2C0%2C0%2C0-2.7-5.6h0Z%22%20style%3D%22fill%3A%23ce592b%3Bfill-opacity%3A0.25%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E%0A" aria-label="Управление человечком в режиме просмотра улиц" style="display: none; height: 40px; width: 40px; position: absolute; transform: translate(-60%, -45%); pointer-events: none;"></div></div><div class="gmnoprint" controlwidth="40" controlheight="40" style="display: none; position: absolute;"><div style="width: 40px; height: 40px;"><button draggable="false" title="Повернуть карту на 90 градусов" aria-label="Повернуть карту на 90 градусов" type="button" class="gm-control-active" style="background: none rgb(255, 255, 255); display: none; border: 0px; margin: 0px 0px 32px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button><button draggable="false" title="Изменить угол обзора" aria-label="Изменить угол обзора" type="button" class="gm-tilt gm-control-active" style="background: none rgb(255, 255, 255); display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px;"></button></div></div></div><div class="gmnoprint" style="margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 0px; top: 0px;"><div class="gm-style-mtc" style="float: left; position: relative;"><div role="button" tabindex="0" title="Показать карту с названиями объектов" aria-label="Показать карту с названиями объектов" aria-pressed="true" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; height: 40px; display: table-cell; vertical-align: middle; position: relative; color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 0px 17px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 50px; font-weight: 500;">Карта</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; left: 0px; top: 40px; text-align: left; display: none;"><div draggable="false" title="Показать карту рельефа с названиями объектов" style="color: black; font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 5px 8px 5px 5px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="vertical-align: middle;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%203H5c-1.11%200-2%20.9-2%202v14c0%201.1.89%202%202%202h14c1.11%200%202-.9%202-2V5c0-1.1-.89-2-2-2zm-9%2014l-5-5%201.41-1.41L10%2014.17l7.59-7.59L19%208l-9%209z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em); display: none;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%205v14H5V5h14m0-2H5c-1.1%200-2%20.9-2%202v14c0%201.1.9%202%202%202h14c1.1%200%202-.9%202-2V5c0-1.1-.9-2-2-2z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em);"></span><label style="vertical-align: middle; cursor: pointer;">Рельеф</label></div></div></div><div class="gm-style-mtc" style="float: left; position: relative;"><div role="button" tabindex="0" title="Показать спутниковую карту" aria-label="Показать спутниковую карту" aria-pressed="false" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; height: 40px; display: table-cell; vertical-align: middle; position: relative; color: rgb(86, 86, 86); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 0px 17px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 71px; border-left: 0px;">Спутник</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; right: 0px; top: 40px; text-align: left; display: none;"><div draggable="false" title="Показать спутниковую карту с названиями объектов" style="color: black; font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 5px 8px 5px 5px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="vertical-align: middle;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%203H5c-1.11%200-2%20.9-2%202v14c0%201.1.89%202%202%202h14c1.11%200%202-.9%202-2V5c0-1.1-.89-2-2-2zm-9%2014l-5-5%201.41-1.41L10%2014.17l7.59-7.59L19%208l-9%209z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em);"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%205v14H5V5h14m0-2H5c-1.1%200-2%20.9-2%202v14c0%201.1.9%202%202%202h14c1.1%200%202-.9%202-2V5c0-1.1-.9-2-2-2z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em); display: none;"></span><label style="vertical-align: middle; cursor: pointer;">Названия объектов</label></div></div></div></div></div></div></div>
+					<div class="contacts__info">
+						<svg width="47" height="47" viewBox="0 0 47 47">
+  						<image id="location.svg" width="47" height="47" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAvCAMAAABE+WOeAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACMVBMVEXnzP/////nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP8AAACKe6stAAAAuXRSTlMAAApMibPN0s6MTgwpnPT43dDc95UP/cVrKALEBDLBOkLzZkE09ew4MxLiNjX246RiHnGlsR1bspj85iuuNycV07xKCBYiG/4DAT3CqG9gio1kSK/7Cerp0bDfyhyUkxrHP2FePkdYVEaQEDB4Lpfvt/HG7gW4RblAI+jyGSGe61YU4J2HUH6D233Z7SDYhh/MqkSLw95jp6BVqY+mOXSjooCarGyt5AbX8L8N+ud7Z5F61k1PJUPAkkDYfO4AAAABYktHRLqjsUfaAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4wcSFiE53wXCoQAAA1hJREFUSMeNlfdD00AUx++KWKVYCh3WiHWioiCKEwcgiNAKuKjYigpIETGOipshoBUEJ4oLnIBSJ+L8/ncml5iGJlTeL993d5+0L+/eeyFEY4a4afHTjTPiZyaYhBWdaBo6cZYZSLIkp1gBs+1/vN3mwGznHE5wuTnOuZbU2Pw8C1zzJ27F4hcstC6Kjo8uXjIZvyRt6TLN+9Bk83J9Pn2FdaU2WzQjc1W6Lp+F1bK3JnvtuvVK/BuQpccvw0bJMW3KATZvibzvVmzT4Tfm5DLNy8f2gkL2N7YdjC/KidfyO4u3Mi1xIdstbXmwi2P5LC3eqeHLEMe0HLuVvT3Yy/h9KNPw+yu8TI0HvJFKqjzI+MIkn4b3H2JShcOqlB3BUUZV+zW8o5RJDWpV/DHUMSrLEc3bYWMaQL2KP44GRp1AYxRfiE1MT4JX8TxOMeo0vNHxnDkrpTNYreLPNZ1n1NkzmvgvBEuY2nBR2WsQghShkuAlDc/jMtOjwc1X5K2iq80tjL8MXsO3ok1yEhzX2sUL5toPOBKkfmlDq7Z+XGkdklPQhM7rN9r8WFog1VtHmkun3kK4KXvpXd0Aurs65Pq8hZAOz/X0NioL022TUs+NvXc4vX6px12iNUrvol63v9zTrfd0+HvW+279fq/BAx3+AWommyel6NPwfSiddP5UNVsMUbjB0lw1+Xxz4mEU/xDOGPOQe1TsmbDhKX7ExeBJq9lvVy3t/eYiGosnj/FEtXqCvVSP9/JPmT0j5Lky5QhZjeeEPpOOeK+K90GyASEEvzlXxnPF4OiAfOaL8AEMpio/+qLCKCXVYMx5ocz/1EEE/vGc0dyiCvolXjF9jZck8r1oMR/kZL4Wbwj31ufzOTlWR0MYFmQYI2LbUM4pnLzl6BuUS7z33VUTeT8aDmfiQ6v4wMfRTx7i+XTnI8vwB2SGwz3vqenzOy/jv+CrfPdjWEHsoVCIR+VwJXjBs5NOjBmkiBbhm8jnBUeVl607JvS92nhSrlRn6ngwj4oz8rv6wuw/QhH7YVd/H7/jCCU/K1yE/GoKi9YU0Kn/gHzWR+nvip9C1jKEmxnyiTaSqMMnjrCzoVxKM/Ca5Pe7SSxTF4+7P5/8QUryVC0Ff4QkjndO1cbHDH8BGy4YxqngAh0AAAAASUVORK5CYII="></image>
+						</svg>
+						<h6 class="contacts__title">AДРЕС</h6>
+						<a href="https://www.google.com/maps/search/?api=1&amp;query=47.091689,37.526907" target="_blank" class="contacts__link">ул. Богдана Хмельницкого, 1</a>
+						<svg class="contacts__icon" width="57" height="36" viewBox="0 0 57 36">
+  						<image id="group.svg" width="57" height="36" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAAkCAMAAAAEjmLyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACZFBMVEXnzP/////nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP8AAABEB/N7AAAAynRSTlMAACaGw9vgA4389djQAavUSwVsugotcyfr7hJ5/nA/fVMz31FV4itnVOibHQlpwLmRMX5NWHVADxYhzf3EkIwv8fD5i3b6426SAlu7+NYV53890eS98iw892EGOzdFiRH2EBnqeweA5p021e8ECwxSnnSWgUTPjlBt2YjhSo/7rOWwlRifICPePsJPMNKypdxWzlx8SL9BKLMcypfLcoRayGOKhw3dlBcanPMip3rJxagpNE6+oCQqZe1faOnTx2DG9BSueHdxHy4IL5kBCwAAAAFiS0dEy4SzBnAAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxIWISMiZzvbAAAD1klEQVRIx92V61sTRxTGZ5HsEtgQUcBEN1gjKKDB3iRAGtmACNRLW9MqQpSgYq0GUFQQqxaDeEODFwq1ioUqvYAttiiWWrXV2tr3r+rMzm4IPA8+D/3Y+XLeObO/bM6Zd2YJmWHEzYk3iab4OXHT8oIxZuCkBDMSk+SkRJgTpNmQlmRY56ZQkTLXimTLLMh5mJ+qy9T5mPdKMi09fUF0NcVmXxidLLTbUl5BLlIAxWGsZiCBkMWv6bMEZMxMLoFzaWaWskxfXY5sQnKQu0KbZWO5Fle6kvPyVr3+xhTyTbxFyNtYrZMO5LsLCovgece7On1NHlwsWSwCqq8EKLXEkGshlpWtQ3mUrMgxkcp3128AGxtZ0Zve87xPY+UHm7Fokiz2w7f+w4/g3MLJrUDVNiaqF9QEtsPL5A7wNgi1WcE6g9y5y7O7ntaxx/PxJo7uxSeTZuLkvv2hhsxG1qG1aDLIA8aOHUQzF4dwOEoexiEW9svFR2BvyQgJrTiqk/XBtsqlx6qpCn2qcqsdx4koeQLHWfCdBD5rB4JFRXDo5DKcCgOrOqg8jU7t6er24BkdPBNsZz9KZJw9R6Tta87bgAs62UXbd/ESEiPpi/ehiz+fiW5+SOK6cZlbCad4h7pQIUTJK5dDlqsbtR3QSXINVeGerp5wFa7xhGT+nJO92G2QfcjVcp35W7/AdaM8H/jwGYkvS7Q14QZ6DDKkZumWrs/ZZZyohpKbNf23+mtuljToma8wUEDDoGINRZ3g5X0n5Gvc5uJO+RD26js7VH5HU5ZcqJFvimDfMunburMIf0vId98jqZHNC1tUDNsV5laXYh+G2lLI0r0IUm8pebGOH2mDp61NwUVWScddD5z97jQbNboLtjR3vxOeux3E4sUPBSN1qj0u9qx48ePQ0AD2UFlrwmgT80OfH/fg/4m1tWkUptqfgbKx1PuA+cH4JBlGGtud25qznfpFMu6Hf5zLVCd2WFrH1LIriIzR03fvISerf5lgB8wB268WYgXu6+ggBnWQvslKY0BFRBKEngEopXQTQo+yMDwBVzl+CyJAxMcRPHFrwFM81aL7d0Qei0w9QKdW40HQe6LxCf449uyhH/Sv7cyWiChLETyfQj6nb5JjSdq9k6OkFJufsaKG7bwmUSZSPEZiyBHESySWXCl6rooiOQL8qRMGSV4gP4bMxwsyhbyAFoGS4kQ3/ppGOqaRjqnkUXopMFK8vs7896xIB1o5SR6xJ/4T2cqW/u/kjWbSJwfoEa7g5AF6X/bK2rfopfyShRVyL707TzO5bfQfSgbkPqG5+V87N5PYeZqGawAAAABJRU5ErkJggg=="></image>
+						</svg>
+						<h6 class="contacts__title">ПРИЕМНАЯ КОМИСИЯ</h6>
+						<span class="contacts__time">Пн-Пт 9:00 - 20:00</span>
+						<span class="contacts__time">Сб и Вс 9:00 - 16:30</span>
+						<a href="tel:+380502311333" target="_blank" class="contacts__link contacts__link--tel">+38 (050) 231 13 33</a>
+						<svg class="contacts__icon" width="41" height="41" viewBox="0 0 41 41">
+  						<image id="books.svg" width="41" height="41" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAMAAACfvvDEAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB0VBMVEXnzP/////nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP8AAAC2tJj2AAAAmXRSTlMAABrQKUW/2o8M5b4q+s/C9lh59Qqk4YT42HPdQpihVQ5Sb0gGQxFf8PRsrigBPJQCIqJl47qq7wgwRjZAFj0zJkpRTifzjOus3wTkOAM0gXbW0o6nzGGmrUyy4Lkjo+qQt6DAsGBJHiAdGJ60ycpQW4d8cZJaDUsLEE1THEcPCcfLXj+J4oA3coZcei5w/Vf8hSVZl/nBi9nVFZ76AAAAAWJLR0SamN9nEgAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB+MHEhYiGLhBgTwAAAISSURBVDjLtZPrV9NAEMUnFKWColWqaNVaJIBKMEALokWUqNW2qKj4imgEqpSqsSBKUPGNb3ygwv1v3aRNDrV00y/enN1zM+d3zszuzBIVq8JTSbRmbZXX/BFsrQLSuuoaWr+hduMmV5J88G3eUuff6k5STfW2+u3YUQZZGdi5a3eQ3Mg9oYa9jWJDsMmNbG4BUM/Wvv18MogDrVLbQVFu70Anj5TDEcn2Xd2HOGQPDjv+CKIcMopWx/cixCGPos/xx3CcQ7aj3/EKTvBOdPKU470xmXdLp8/E8y6e6ODeZxLeAZLPxkk6hyS/R+dR5R9EwH8BF936Hr001HX5ytDVa64TUqhCsuK66qYbwxZ585amJQLav7JDgzFNC9+2yNoRotGxosRWiOUd8QiCplohz38gUyKbYKWI9N3JkWIqR8bvjvOVloSJ8YxKYjfclOpj2z26/6Bf1/WHyOp5TWLKto+g61lMP45i6skMqZpZkgGdaLap7qk59T12oSkQ6TAEFmI9WkGiWUG6bPJZWeTzuRcKJ/vLV6ESJ1Ia82R6Eq8Z+SZW8nba8uRb5qfZ1MlGCc3Z2QcM4908I99/yBU1/JFmP9HnLyvamUIy28nqFATVJOdVO2yMjVLL1wJygX3lkN++//gZWZhxyHBJUupla8J8RGGTXETGegMR/AoktN9/tFWUwaJ59qVl1/e2vCQLfwEmOxac/LWziwAAAABJRU5ErkJggg=="></image>
+						</svg>
+						<h6 class="contacts__title">ПРИЕМНАЯ КОМИСИЯ</h6>
+						<span class="contacts__time">Пн-Пт 9:00 - 20:00</span>
+						<span class="contacts__time">Сб и Вс 9:00 - 16:30</span>
+						<a href="tel:+380502311333" target="_blank" class="contacts__link contacts__link--tel">+38 (050) 231 13 33</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer__wrap-number">
+			<svg width="22" height="30" viewBox="0 0 22 30">
+			 	<image id="mobile-phone.svg" width="22" height="30" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAeCAMAAAAfOR5kAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA4VBMVEXnzP/////nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP8AAACY74rbAAAASnRSTlMAABeR1urw6M+GEeSbMyAhPqfcFZSeA4eQiQSkj9g8ZHBmAULU4GtQauy6sNBKMGNlJRP2Ojj1FtJDH/IODfEjjaac56GOFECl6VkGRUYAAAABYktHREoeDLXGAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4wcUARgXMVWo/QAAALFJREFUKM/t0rcSglAQheGDYkAUAXMOgBHMCTNm3/+FDGtxnVvb+TU78xenWsDnFwNBRigsRQT45GhMYcVVTU8gmcJbOpPN5vKA8FQoolSmjEq1WqtTNkxYjSan1YbV6XI6QVgKvrxGlH/+XRZtjvjMTo/jMCN9WR4wI0Oqo/FkOptTHraxcCkvV+vNdkfZNbH3PiOHY+j0GfHOuOiaSl92NeiWb/oIiEj212ve7dxFeACxNSC/KHOqrwAAAABJRU5ErkJggg=="></image>
+			</svg>
+			<div class="footer__wrap-link">
+				<a href="tel:+48221611473" class="footer__link-tel">+48221611473</a>
+				<a href="tel:+48796627184" class="footer__link-tel">+48796627184</a>
+			</div>
+		</div>
+		<div class="footer__wrap-icon">
+			<a class="footer__soc" href="http://localhost:3000/#" target="_blank">
+			<svg width="22" height="22" viewBox="0 0 22 22">
+  				<image id="facebook.svg" width="22" height="22" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAMAAADzapwJAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAt1BMVEXnzP/////nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP8AAADFCj0OAAAAO3RSTlMAAAN85/yOVFAHIAQQnPcM0etwNzBXfvQmz5cWTXHsAuTwW1iw+8mAoEYKwhLgeOiivmIO+JJAqDr1hxdkgrwAAAABYktHRDynamHPAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4wcUAR4GDb8viQAAAMRJREFUGNN90dcSwiAQBdDFFFCxR2OPBQUL1lj5//8yOJOEJI73hZnzsOzshZJlq1xsqwSW42KSCXYdC2wXMkFRXBsUTqlc0akirECRGGmt/h1dQcTgRrPV7nheN8c9v68fL8eDIcBoTCY5nk4gmBVnz9tA1YJSGqS8ZGylec0Y66fMfSE2sBVC7NTeYBlvfziiX3w6m+xIeYGrlDK8GXznPNRfPjh/ouKC5HvBP4yLHB02qcHgqIaktJfmd1xaWrHmuOIPI3oiNnwTc0UAAAAASUVORK5CYII="></image>
+			</svg>
+		</a>
+		<a href="http://localhost:3000/#" class="footer__soc" target="_blank">
+			<svg class="footer__icon" width="28" height="22" viewBox="0 0 28 22">
+ 			 	<image id="youtube.svg" width="28" height="22" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAWCAMAAADkSAzAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAqFBMVEXnzP/////nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP/nzP8AAAB1N85SAAAANnRSTlMAAB2l7xvl3cCfdwHr17GwFl4gyjgcvc72gAqQAmLo5FsNh/jINgh9xzNO6WC3/I4PvivjVYUJggNXAAAAAWJLR0Q3MLi4RwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB+MHFAEeGYC3InwAAACcSURBVCjPfdLJDoMwDARQhxBSCJDupXTf972d//+0XjhQNc4c86RIHpsokCEcCWUgSEXQDUc0IkUxEkO1iComQUxpRuRCIbKUkHOYg2Cr12bL/KKtYRudrgcB2WOxP0AxLBkcjSdTzObGjUSL5QrrDYPbXYH9wY1HjdPZ/a294Hq7s6M8nuworzdbgvqU//X5iveuzLts75n4DuwL7BofjiL+ZyoAAAAASUVORK5CYII="></image>
+			</svg>
+		</a>
+		<a href="http://localhost:3000/#" class="footer__soc" target="_blank">
+			<svg width="22" height="22" viewBox="0 0 22 22">
+ 			 	<image id="instagram.svg" width="22" height="22" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAMAAADzapwJAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAWlBMVEX2AZb////2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZb2AZYAAACx2MU3AAAAHHRSTlMAAAN85/yOVFAkWRgx+e166hQ9m8c/BqDTlvZYGTUurQAAAAFiS0dEHesDcZEAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxQBHhIXZfv0AAAAlklEQVQY04XR3RLDEBAF4BWC/DUpEsS+/3M2mQ5Fa3puzHwXuzjQUYZVGO2A9lzIIoL3FBiHIsM4Ec4ARaHzgo9JIKAseN2eOMoPK22MVrDjtgyJD4vOe4f22NeZJLZnuI9wWnIlssLwHhVQZaxdXOl0xsZH9uY/N4Y0VjYumD2n4PR4qDgmsvjm62PrGm6+amiU9rviF+ukEXYwpYYoAAAAAElFTkSuQmCC"></image>
+			</svg>
+		</a>
+		</div>
+	</footer>
+	<script src="./Малая компьютерная академия ШАГ_files/jquery.js.Без названия"></script>
+	<script src="./Малая компьютерная академия ШАГ_files/slick.js.Без названия"></script>
+	<script async="" defer="" src="./Малая компьютерная академия ШАГ_files/js">
+	</script>
+	<script src="./Малая компьютерная академия ШАГ_files/script.js.Без названия"></script>
+
+</body></html>

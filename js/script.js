@@ -53,8 +53,8 @@ $(document).ready(function () {
         dots: true
     }); 
 
-});
 
+});
 
 //MAp**********************************************************
 
@@ -76,4 +76,28 @@ $(document).ready(function () {
         title: 'Малая компьютерная академия ШАГ'
       });
   }
+
+
+    var clickElem = document.getElementById('burger');
+    var showIcon = document.getElementById('closeBurger');
+        showIcon.style.display = 'none';
+        clickElem.onclick = function() {
+            var showMenu = document.getElementById('menu-link');
+            showMenu.style.display= 'flex';
+            clickElem.style.display = 'none';
+            showIcon.style.display = 'block'
+        }
+
+
+    var showIcon = document.getElementById('closeBurger');
+        showIcon.onclick = function() {
+            var clickElem = document.getElementById('burger');
+            var showMenu = document.getElementById('menu-link');
+            showMenu.style.display= 'none';
+            clickElem.style.display = 'block';
+            showIcon.style.display = 'none'
+        }
+
+
+
 

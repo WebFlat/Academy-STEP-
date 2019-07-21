@@ -1,0 +1,325 @@
+@media screen and (max-width: 1200px){
+	.form__wrap {
+		padding: 0;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.header {
+		height: 100vh;
+	}
+	.header__row {
+		top: 50%;
+	}
+	.header__social-wrap {
+		bottom: -10%;
+	}
+	.header__scroll {
+    	position: absolute;
+    	bottom: -25%;
+	}
+	.bottom-block__right {
+		display: none;
+	}
+	.about__skills {
+		justify-content: flex-start;
+	}
+	.about__text {
+    margin: 60px auto 60px auto;
+	}
+	.head__title {
+    margin: 65px 0 40px 0;
+	}
+	.why__items {
+		justify-content: center;
+		width: 80%;
+	}
+	.lean {
+		margin-top: -200px;
+	}
+	.study__img {
+		display: none;
+	}
+	.bottom-block__left {
+    width: 90%;
+	}
+	.bottom-block {
+		width: 70%;
+    	padding: 30px 10px 55px 130px;
+    	margin: 0 auto;
+	}
+	.teachers .teacher--two::before {
+		display: none;
+	}
+	.form {
+		padding: 50px 0 0 0;
+		&__input-pic {
+    		top: 30%;	
+    		&--tel {
+    			top: 45%;
+    		}
+    		&--mail {
+    		top: 62%;
+    		left: 8%;
+    		}
+    	}
+    	&__img-wrap {
+    		margin: 0 auto;
+    	}	
+	}
+	.contacts {
+    padding: 60px 0 175px 0;
+    }
+
+}
+@media screen and (max-width: 968px) {
+	.header .menu__nav--burger {
+		display: block;
+	}
+	.header .menu__nav--center {
+		display: none;
+	}
+	.head__title {
+    	margin: 25px 0 20px 0;
+	}
+	.about {
+		padding-bottom: 0;
+	}	
+	.why {
+		padding: 80px 0 90px;
+	}
+	.study__items {
+    	flex-direction: column;
+	}
+	.study__item--xl {
+    	margin: 0 0 15px 0;
+	}
+	.study__content {
+		justify-content: center;
+	}
+	.teachers .teacher--one::after {
+		display: none;
+	}
+	.teachers {
+    	padding-bottom: 0; 
+	}
+	.form__main {
+    	width: 75%;
+    	align-items: center;
+    	margin: 0 auto;
+	}
+	.form__title {
+		text-align: center;
+	}
+	.form__input-pic {
+    	top: 31%;
+    	left: calc(27% - 10px);
+    	&--tel {
+    		top: 48%;
+    	}
+    	&--mail {
+    		top: 66%;
+    		left: calc(26% - 10px);
+    	}
+	}
+}
+@media screen and (max-width: 768px) {
+	.header__title {
+		font-size: 4rem;
+	}
+	.header__text {
+		font-size: 2rem;
+		margin-right: 20%;
+		margin-bottom: 45px;
+	}
+	.header__img-wrap {
+		display: none;
+	}
+	.header .menu__nav {
+		flex-wrap: wrap;
+	}
+	.header__scroll {
+    	bottom: 0%;
+	}
+	.header__img-hell {
+    	top: 167px;
+	}
+	.why {
+    	padding: 130px 0 90px;
+	}
+	.why__items {
+		width: 100%;
+	}
+	.call__title {
+    	font-size: 2.2rem;
+	}
+	.top-block__item {
+		width: 500px;
+	} 
+	.bottom-block {
+    	padding: 30px 10px 55px 80px;
+	}
+	.study__img {
+		display: none;
+	}
+	.teachers__wrap {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.teachers .teacher--two {
+		margin-top: 15px;
+	}
+	.form__input-pic {
+    	top: 31%;
+    	left: calc(27% - 35px);
+    	&--tel {
+    		top: 48%;
+    	}
+    	&--mail {
+    		top: 66%;
+    		left: calc(26% - 35px);
+    	}
+	}
+	.about-students__text {
+		width: 90%;
+	}
+	.about__foto-wrap {
+		width: 80%;
+	}
+	.about__foto {
+		max-width: 100%;
+	}
+	.contacts__wrap-location {
+    	flex-direction: column;
+    	align-items: center;
+	}
+	.contacts__info {
+		width: 80%;
+		margin-top: 15px;
+	}
+	.map {
+		width: 100%;
+	} 
+	.footer {
+    	padding: 120px 20px 45px 20px;
+    }	
+}
+@media screen and (max-width: 655px) {
+	.about__skill {
+		min-width: 100%;
+	}
+	.about__skills {
+		width: 80%;
+	}
+	.why__card-info {
+		min-width: 100%;
+	}
+	.call__title {
+    	font-size: 2rem;
+    	width: 100%;
+	}
+	.head__title {
+		font-size: 3rem;
+	}
+	.form__input-pic {
+    	top: 31%;
+    	left: calc(27% - 55px);
+    	&--tel {
+    		top: 48%;
+    	}
+    	&--mail {
+    		top: 66%;
+    		left: calc(26% - 55px);
+    	}
+	}
+	.form__main {
+    	width: 80%;
+    }
+    .form__img {
+    	max-width: 100%;
+    }
+    .about-students__text {
+    	font-size: 1.6rem;
+    	margin: 0 auto;
+    }
+}
+@media screen and (max-width: 480px) {
+	.header__lines {
+		display: none;
+	}
+	.header__body {
+		width: 60%;
+		margin: 0 auto;
+	}
+	.header__title {
+		font-size: 2.5rem;
+		line-height: 1;
+	}
+	.header__text {
+		margin-right: 0;
+	}
+	.header__social-wrap {
+		bottom: -50%;
+	}
+	.about__foto-wrap {
+		display: none;
+	}
+	.about__skills-wrap {
+
+	}
+	.about__skill p {
+		font-size: 1.6rem;
+		align-self: center;
+	}
+	.why__number-human::before, .why__number-human::after {
+		width: 20%;
+		right: 0;
+	}
+	.why__number-human::before {
+		left: 0;
+	}
+	.why__card-info {
+		padding: 20px 30px;
+	}
+	.header__row {
+    	top: 75%;
+	}
+	.bottom-block {
+		width: 100%;
+		&__left {
+			width: 100%;
+		}
+	}
+	.study__item {
+		width: 100%;
+	}
+	.study__item {
+    	width: 100%;
+    	height: auto;
+    	padding: 40px 30px 10px 30px;
+    }
+    .form__input-pic {
+    	top: 36%;
+    	left: calc(27% - 65px);
+    	&--tel {
+    		top: 51%;
+    	}
+    	&--mail {
+    		top: 68%;
+    		left: calc(26% - 65px);
+    	}
+	}
+	.form__main {
+    	width: 75%;
+    }
+}
+@media screen and (max-width: 380px) {
+	.form__input {
+		width: 300px;
+	}
+	.form__main {
+		width: 90%;
+	}
+	.about-students__text {
+    	font-size: 1.4rem;
+    }
+}

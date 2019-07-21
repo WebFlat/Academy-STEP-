@@ -25,12 +25,27 @@
 					<a href="#" class="menu__logo-link">
 						<img src="./img/logo.png" class="menu__logo" alt="logo">
 					</a>
-					<nav class="menu__nav menu__nav-center">
+					<nav class="menu__nav menu__nav--center">
 						<a href="#" class="menu__link">О нас</a>
 						<a href="#" class="menu__link">Почему ты</a>
 						<a href="#" class="menu__link">Отзывы</a>
 						<a href="#" class="menu__link">Контакты</a>
 					</nav>
+					<div class="menu__nav menu__nav--burger">
+						<div class="menu__burger" id="burger">
+							<svg  class="menu__burger-img" height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
+							</svg>
+						</div>	
+						<div class="menu__burger" id="closeBurger">	
+							<svg height="24" version="1.1" width="32"><defs id="defs4"/><g id="layer1" transform="translate(0,-1036.3622)"><path d="m 3,1050.3622 12,-12" id="path2985" style="fill:#fff;stroke:#fff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"/><path d="m 3,1038.3622 12,12" id="path2985-1" style="fill:#fff;stroke:#fff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"/></g></svg>
+						</div>
+						<nav class="menu__hide" id="menu-link">
+							<a href="#" class="menu__link-brg">О нас</a>
+							<a href="#" class="menu__link-brg">Почему ты</a>
+							<a href="#" class="menu__link-brg">Отзывы</a>
+							<a href="#" class="menu__link-brg">Контакты</a>
+						</nav>
+					</div> 
 					<nav class="menu__nav menu__nav--right">
 						<a href="#" class="menu__link-right">CZ</a>
 						<a href="#" class="menu__link-right">
@@ -549,8 +564,6 @@
 			</svg>
 		</a>
 		</div>
-
-
 	</footer>
 	<script src="js/jquery.js"></script>
 	<script src="js/slick.js"></script>
