@@ -156,7 +156,7 @@ body{
 .header {
 	height: 130vh;
 	width: 100%;
-	background: url(../img/header-bg.png) no-repeat center;
+	background: url(../img/header/header-bg.png) no-repeat center;
 	background-size: cover;
 	padding-top: 40px;
 	position: relative;
@@ -299,7 +299,7 @@ body{
 		z-index: 5;
 	}
 	&__lines {
-		background: url(../img/lines.png) no-repeat right;
+		background: url(../img/header/lines.png) no-repeat right;
 		background-size: contain;
 		height: 280px;
 		width: 200px;
@@ -388,7 +388,7 @@ body{
 			@include my_pos($left: -70%);
 			display: inline-block;
 			content: '';
-			background: url(../img/arrow.png) no-repeat;
+			background: url(../img/header/arrow.png) no-repeat;
 			width: 100px;
 			height: 8px;
 		}
