@@ -170,11 +170,13 @@ body{
 			width: 270px;
 			height: 70px;
 			position: relative;
+			animation: rotatelogo 3s infinite;
+			animation-delay: 2s;
 			@include tr;
 			&:hover,
 			&:focus,
 			&:active {
-				transform: scale(1.1);
+				animation-play-state: paused;
 			}
 		}
 		&__logo {
@@ -182,6 +184,7 @@ body{
 			max-width: 100%;
 			max-height: 100%;
 			min-width: 150px;
+			
 		}
 		&__nav {
 			display: flex;
@@ -194,7 +197,7 @@ body{
 				width: 40%;
 				display: none;
 				right: 20%;
-				top: 8%;
+				top: 52px;
 				z-index: 10;
 			}
 		}
@@ -211,7 +214,7 @@ body{
 		&__burger {
 			text-align: right;
 			@include tr;
-			padding: 5px 0;
+			padding: 8px 0 0 0;
 		}
 		&__hide {
 			display: flex;
@@ -383,6 +386,8 @@ body{
 		font-size: 1.2rem;
 	}
 	&__scroll-text {
+		position: relative;
+		animation: linkdown 2s infinite;
 		transform: rotate(-90deg);
 		&::before {
 			@include my_pos($left: -70%);
@@ -395,7 +400,7 @@ body{
 	}
 	&__scroll {
 		position: absolute;
-		bottom: -45%;
+		bottom: -20%;
 	}	
 	&__scroll-link {
 		height: 90px;
@@ -419,7 +424,28 @@ body{
 	}
 }
 
-
+@keyframes linkdown {
+	0% {
+		top: 0;
+	}
+	50% {
+		top: 10px;	
+	}
+	100% {
+		top: 0;
+	}
+}
+@keyframes rotatelogo {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
 
 
 
@@ -751,7 +777,7 @@ body{
 		img {
 			position: absolute;
 			top: -5%;
-			left: 0;
+			left: -5%;
 		}	
 	}
 	&__title {
@@ -1194,6 +1220,27 @@ body{
 			opacity: .5;
 		}
 	}
+	&__mobile-call {
+		animation: dring 2s infinite;
+	}
+}
+@keyframes dring {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(-25deg);
+	}
+	50% {
+		transform: rotate(25deg);
+	}
+	75% {
+		transform: rotate(-25deg);
+	}
+	100% {
+		transform: rotate(0);
+	}
+
 }
 
 

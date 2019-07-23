@@ -5,7 +5,7 @@
 }
 @media screen and (max-width: 1024px) {
 	.header {
-		height: 100vh;
+		height: 110vh;
 	}
 	.header__row {
 		top: 50%;
@@ -15,10 +15,13 @@
 	}
 	.header__scroll {
     	position: absolute;
-    	bottom: -25%;
+    	bottom: -15%;
 	}
 	.bottom-block__right {
 		display: none;
+	}
+	.about {
+		margin-top: 150px;
 	}
 	.about__skills {
 		justify-content: flex-start;
@@ -179,6 +182,9 @@
     		left: calc(26% - 35px);
     	}
 	}
+	.about {
+		margin-top: 0;
+	}
 	.about-students__text {
 		width: 90%;
 	}
@@ -240,6 +246,12 @@
     .about-students__text {
     	font-size: 1.6rem;
     	margin: 0 auto;
+    }
+    .menu__nav--right {
+    	display: none !important;
+    }
+    .header .menu__nav--burger {
+    	right: 6%;
     }
 }
 @media screen and (max-width: 480px) {

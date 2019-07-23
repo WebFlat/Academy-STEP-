@@ -654,14 +654,19 @@ body {
       width: 270px;
       height: 70px;
       position: relative;
+      -webkit-animation: rotatelogo 3s infinite;
+      -o-animation: rotatelogo 3s infinite;
+      animation: rotatelogo 3s infinite;
+      -webkit-animation-delay: 2s;
+      -o-animation-delay: 2s;
+      animation-delay: 2s;
       -webkit-transition: all .3s ease-in;
       -o-transition: all .3s ease-in;
       transition: all .3s ease-in; }
       .header .menu__logo-link:hover, .header .menu__logo-link:focus, .header .menu__logo-link:active {
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        -o-transform: scale(1.1);
-        transform: scale(1.1); }
+        -webkit-animation-play-state: paused;
+        -o-animation-play-state: paused;
+        animation-play-state: paused; }
     .header .menu__logo {
       position: absolute;
       top: 50%;
@@ -695,7 +700,7 @@ body {
         width: 40%;
         display: none;
         right: 20%;
-        top: 8%;
+        top: 52px;
         z-index: 10; }
     .header .menu__burger-img {
       fill: #fff;
@@ -710,7 +715,7 @@ body {
       -webkit-transition: all .3s ease-in;
       -o-transition: all .3s ease-in;
       transition: all .3s ease-in;
-      padding: 5px 0; }
+      padding: 8px 0 0 0; }
     .header .menu__hide {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -877,6 +882,10 @@ body {
     text-transform: uppercase;
     font-size: 1.2rem; }
   .header__scroll-text {
+    position: relative;
+    -webkit-animation: linkdown 2s infinite;
+    -o-animation: linkdown 2s infinite;
+    animation: linkdown 2s infinite;
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
@@ -896,7 +905,7 @@ body {
       height: 8px; }
   .header__scroll {
     position: absolute;
-    bottom: -45%; }
+    bottom: -20%; }
   .header__scroll-link {
     height: 90px;
     width: 90px; }
@@ -918,6 +927,66 @@ body {
     z-index: -1;
     max-width: 430px;
     max-height: 290px; }
+
+@-webkit-keyframes linkdown {
+  0% {
+    top: 0; }
+  50% {
+    top: 10px; }
+  100% {
+    top: 0; } }
+
+@-o-keyframes linkdown {
+  0% {
+    top: 0; }
+  50% {
+    top: 10px; }
+  100% {
+    top: 0; } }
+
+@keyframes linkdown {
+  0% {
+    top: 0; }
+  50% {
+    top: 10px; }
+  100% {
+    top: 0; } }
+
+@-webkit-keyframes rotatelogo {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@-o-keyframes rotatelogo {
+  0% {
+    -o-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
+  100% {
+    -o-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes rotatelogo {
+  0% {
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
+  100% {
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
 
 .about {
   padding-bottom: 80px;
@@ -1242,7 +1311,7 @@ body {
     .bottom-block__right img {
       position: absolute;
       top: -5%;
-      left: 0; }
+      left: -5%; }
   .bottom-block__title {
     font-size: 2.9rem;
     margin: 0;
@@ -1636,6 +1705,66 @@ body {
     transition: all .3s ease-in; }
     .footer__soc:hover, .footer__soc:active, .footer__soc:focus {
       opacity: .5; }
+  .footer__mobile-call {
+    -webkit-animation: dring 2s infinite;
+    -o-animation: dring 2s infinite;
+    animation: dring 2s infinite; }
+
+@-webkit-keyframes dring {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  25% {
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg); }
+  50% {
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg); }
+  75% {
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg); }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); } }
+
+@-o-keyframes dring {
+  0% {
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  25% {
+    -o-transform: rotate(-25deg);
+    transform: rotate(-25deg); }
+  50% {
+    -o-transform: rotate(25deg);
+    transform: rotate(25deg); }
+  75% {
+    -o-transform: rotate(-25deg);
+    transform: rotate(-25deg); }
+  100% {
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
+
+@keyframes dring {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  25% {
+    -webkit-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+    transform: rotate(-25deg); }
+  50% {
+    -webkit-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    transform: rotate(25deg); }
+  75% {
+    -webkit-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+    transform: rotate(-25deg); }
+  100% {
+    -webkit-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0); } }
 
 .slider {
   width: 100%; }
@@ -1737,16 +1866,18 @@ input[type="range"]::-ms-fill-upper {
 
 @media screen and (max-width: 1024px) {
   .header {
-    height: 100vh; }
+    height: 110vh; }
   .header__row {
     top: 50%; }
   .header__social-wrap {
     bottom: -10%; }
   .header__scroll {
     position: absolute;
-    bottom: -25%; }
+    bottom: -15%; }
   .bottom-block__right {
     display: none; }
+  .about {
+    margin-top: 150px; }
   .about__skills {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
@@ -1872,6 +2003,8 @@ input[type="range"]::-ms-fill-upper {
     .form__input-pic--mail {
       top: 66%;
       left: calc(26% - 35px); }
+  .about {
+    margin-top: 0; }
   .about-students__text {
     width: 90%; }
   .about__foto-wrap {
@@ -1920,7 +2053,11 @@ input[type="range"]::-ms-fill-upper {
     max-width: 100%; }
   .about-students__text {
     font-size: 1.6rem;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .menu__nav--right {
+    display: none !important; }
+  .header .menu__nav--burger {
+    right: 6%; } }
 
 @media screen and (max-width: 480px) {
   .header__lines {
