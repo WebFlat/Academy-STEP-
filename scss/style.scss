@@ -13,6 +13,9 @@
 	left: $left;
 	transform: translate($tx, $ty);
 }
+
+
+
 $violet: #8100ff;
 $dark-violet: #4a28ca;
 $pink-color: #c400ff;
@@ -32,6 +35,7 @@ html {
 
 body{
 	font-family: 'Geometria', sans-serif;
+	font-display: auto;
 	min-height: 100%;
 	font-size: 2rem;
 	line-height: 1.6;
