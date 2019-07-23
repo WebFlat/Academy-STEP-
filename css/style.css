@@ -1337,7 +1337,7 @@ body {
 
 .about-learn {
   margin-top: 110px;
-  padding: 145px 0 200px 0;
+  padding: 275px 0 200px 0;
   background: url(../img/aboutLearn/bg-learn.jpg) no-repeat center;
   background-size: 100% 100%; }
 
@@ -1429,6 +1429,7 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between; }
   .teachers .teacher {
+    margin: 3px;
     width: 360px;
     height: 600px;
     position: relative;
@@ -1571,11 +1572,11 @@ body {
   .form__input-pic {
     position: absolute;
     left: 9%;
-    top: 30%; }
+    top: 32%; }
     .form__input-pic--tel {
-      top: 45%; }
+      top: 48%; }
     .form__input-pic--mail {
-      top: 62%; }
+      top: 66%; }
 
 .about-students {
   background: url(../img/roket-bg.jpg) no-repeat center;
@@ -1905,13 +1906,6 @@ input[type="range"]::-ms-fill-upper {
     display: none; }
   .form {
     padding: 50px 0 0 0; }
-    .form__input-pic {
-      top: 30%; }
-      .form__input-pic--tel {
-        top: 45%; }
-      .form__input-pic--mail {
-        top: 62%;
-        left: 8%; }
     .form__img-wrap {
       margin: 0 auto; }
   .contacts {

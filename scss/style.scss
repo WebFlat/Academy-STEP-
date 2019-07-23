@@ -818,7 +818,7 @@ body{
 
 .about-learn {
 	margin-top: 110px;
-	padding: 145px 0 200px 0;
+	padding: 275px 0 200px 0;
 	background: url(../img/aboutLearn/bg-learn.jpg) no-repeat center;
 	background-size: 100% 100%;
 }
@@ -909,6 +909,7 @@ body{
 		justify-content: space-between;
 	}
 	.teacher {
+		margin: 3px;
 		width: 360px;
 		height: 600px;
 		position: relative;
@@ -1071,15 +1072,15 @@ body{
 	&__input-pic {
 		position: absolute;
 		left: 9%;
-		top: 30%;
+		top: 32%;
 		&--book {
 			// filter: opacity(.3);
 		}
 		&--tel {
-			top: 45%;
+			top: 48%;
 		}
 		&--mail {
-			top: 62%;
+			top: 66%;
 		}
 	}	
 
