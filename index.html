@@ -185,7 +185,7 @@
 					</div>
 					<div class="why__card-wrap">
 						<div class="why__img-wrap">
-							<img src="./img/small-boy.png" alt=""> 	
+							<img class="why__img" src="./img/small-boy.png" alt="boy"> 	
 						</div>
 						<div class="why__card-info">
 							<p class="why__text">В варшаве учится:</p>
@@ -301,7 +301,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="about-learn">
+		<section class="about-learn" id="about-learn">
 			<div class="container">
 				<div class="head">
 					<div class="head__lines">
@@ -310,33 +310,13 @@
 					</div>
 					<h2 class="head__title head__title--white">Как проходит обучение</h2>
 				</div>
-				<div class="slider" id="slider">
-					<!-- <div class="slide">
-						<img src="./img/aboutLearn/slide-learn.png" alt="">
-					</div>
-					<div class="slide">
-						<img src="./img/aboutLearn/slide-learn.png" alt="">
+				<div class="owl-carousel owl-theme">
+					<img class="about-learn__img" src="./img/aboutLearn/slide-learn.png" alt="">
+					<img class="about-learn__img" src="./img/aboutLearn/slide-learn.png" alt="">
+					<img class="about-learn__img" src="./img/aboutLearn/slide-learn.png" alt="">
+					<img class="about-learn__img" src="./img/aboutLearn/slide-learn.png" alt="">
+					<img class="about-learn__img" src="./img/aboutLearn/slide-learn.png" alt="">
 
-					</div>
-					<div class="slide">
-						<img src="./img/aboutLearn/slide-learn.png" alt="">
-					</div>
-					<div class="slide">
-						<img src="./img/aboutLearn/slide-learn.png" alt="">
-					</div>
-					<div class="slide">
-						<img src="./img/aboutLearn/slide-learn.png" alt="">
-
-					</div> -->
-					<img src="./img/aboutLearn/slide-learn.png" alt="">
-					<img src="./img/aboutLearn/slide-learn.png" alt="">
-					<img src="./img/aboutLearn/slide-learn.png" alt="">
-					<img src="./img/aboutLearn/slide-learn.png" alt="">
-					<img src="./img/aboutLearn/slide-learn.png" alt="">
-
-				</div>
-				<div class="range__container">
-					<input type="range" id="range" min="1" value="3" step="1" />
 				</div>
 			</div>	
 		</section>
@@ -438,7 +418,7 @@
 					</div>
 					<h2 class="head__title head__title--white">Отзывы</h2>
 				</div>
-				<div class="feedback__items slider2">
+				<div class="owl-carousel owl-theme">
 					<a href="#" class="feedback__item">
 						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="63" viewBox="0 0 35 63">
   							<image id="facebook-logo.svg" width="35" height="63" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA/CAQAAADAxLkyAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjBxEXDCyBhbl8AAABNElEQVRYw2P8z0AU0GDwY7Bi0GSQY+DAkPvC4M/wnxBk/B/6/9R//KCPhYArFBkWMtgSdCsTfmOcGNYx8BPjZ3zG2DFsZ2AjLuiYcMrIMWwk1hB8xsxhECDWENzGeDG4Em8IbmNKSTEElzEKDA7UMMafNENwGWNFoinnsKcbXTxa3jLMYTjN8BZJ5DXDVez56BvO3PP6vyw2Hdg8xcrAidMt8xkeExs23Hi8dJaUIMYNflLHGBxg1BjcgIWBmcEXrWThwqPeCUspdJ7hIsP/wv+Ugp//xZgY5Cn2ERuD1OAK4lFjRpwxX6hgykcWhj4GTgZhFEE2hkicGvYzPMIQO8xwH1v1IoAnGwZgb9oNtiAeNWbUmFFjRo0ZNWbUGELG/MOj/g8Ocay14A4cdeb9/yLYa00AzHkmkVLvtG4AAAAASUVORK5CYII="/>
@@ -568,6 +548,7 @@
 	</footer>
 	<script src="js/jquery.js"></script>
 	<script src="js/slick.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDXUTMWWK4qZwIsU3AudvJ9UC48L9IdA8&callback=initMap">
 	</script>
 	<script src="js/script.js"></script>

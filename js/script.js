@@ -1,61 +1,96 @@
 $(document).ready(function () {
 
-    $('#slider').on('init reInit', function (event, slick) {
-        var amount = slick.slideCount;
-        $('#range').attr('max', amount);
-    })
+    // $('#slider').on('init reInit', function (event, slick) {
+    //     var amount = slick.slideCount;
+    //     $('#range').attr('max', amount);
+    // })
 
-    $('.slider').on('afterChange', function (e, slick, currentSlide) {
-        $('#range').val(currentSlide + 1);
-    })
+    // $('.owl-carousel').on('afterChange', function (e, slick, currentSlide) {
+    //     $('#range').val(currentSlide + 1);
+    // })
 
-    $('#range').on('input change', function () {
-        $('.slider1').slick('slickGoTo', this.value - 1);
-    });
+    // $('#range').on('input change', function () {
+    //     $('.owl-carousel').owlCarousel('slickGoTo', this.value - 1);
+    // });
 
-    $('.slider').slick({
-        centerMode: true,
-        slidesToShow: 3,
-        arrows: false,
-        dots: false,
-        centerPadding: '60px',
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    dots: false,
-                    centerPadding: '40px',
-                    slidesToShow: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    arrows: false,
-                    dots: false,
-                    centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 1
-                }
-            }
-        ]
-    });
+    // $('#slider').slick({
+    //     centerMode: true,
+    //     slidesToShow: 3,
+    //     arrows: false,
+    //     dots: false,
+    //     centerPadding: '60px',
+    //     responsive: [
+    //         {
+    //             breakpoint: 768,
+    //             settings: {
+    //                 arrows: false,
+    //                 centerMode: true,
+    //                 dots: false,
+    //                 centerPadding: '40px',
+    //                 slidesToShow: 2
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 480,
+    //             settings: {
+    //                 arrows: false,
+    //                 dots: false,
+    //                 centerMode: true,
+    //                 centerPadding: '40px',
+    //                 slidesToShow: 1
+    //             }
+    //         }
+    //     ]
+    // });
+
+
+
+
+
+//Slider1*****************************************************
+  $('.owl-carousel').owlCarousel({
+    center: true,
+    loop:true,
+    margin:50,
+    autoHeight: true,
+    autoplay: true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+           items:1,
+            center: false 
+        },
+        1024:{
+            items:3
+        }
+    }
+});
+
 
 
 
 //Slider2******************************************************
-    $('.slider2').slick({
-        centerMode: true,
-        slidesToShow: 3,
-        arrows: false,
-        dots: true
-    }); 
+//     $('.slider2').slick({
+//         centerMode: true,
+//         slidesToShow: 3,
+//         arrows: false,
+//         dots: true
+//     }); 
+
+
+// });
+// $('.owl-carousel2').owlCarousel({
+//     center: true,
+//     loop:true,
+//     margin:15,
+//     autoplay: true,
+//     items: 3,
+//     responsiveClass:false
+// });
+
 
 
 });
-
 //MAp**********************************************************
 
     function initMap() {
